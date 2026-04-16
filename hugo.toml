@@ -1,3 +1,12 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = "Mad God's Overhaul for Skyrim VR"
+theme = 'relearn'
+[params]
+  themeVariant = 'zen-dark'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
