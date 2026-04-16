@@ -1,0 +1,4 @@
+<div class="img">
+  <img src="/images/{{ .Get "name" }}" srcset="/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
+  <span>{{ .Inner | .Page.RenderString }}</span>
+</div>

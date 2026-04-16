@@ -1,0 +1,101 @@
+:root {
+  --INTERNAL-CODE-INLINE-color: #eeeeee;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.topbar-breadcrumbs {
+  font-size: 1rem;
+}
+
+div.img {
+  position: relative;
+  margin: 0 auto 2rem;
+  padding-bottom: 4rem;
+  max-width: 650px;
+
+  img {
+    width: 95%;
+    max-width: 600px;
+  }
+  span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: #d7b04b;
+    color: black;
+    padding: 1rem;
+    box-shadow: 0px 5px 20px #000;
+    font-size: 80%;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.aside {
+  clear: both;
+  margin: 2rem auto;
+  max-width: 50em;
+  position: relative;
+  padding-bottom: 1rem;
+  text-shadow: rgba(0,0,0,0.8) 1px 0 1px;
+  color: #fff;
+  font-size: 1rem;
+}
+.aside h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.aside .emoji {
+  float: left;
+  font-size: 400%;
+  margin: 0 1rem;
+}
+.aside .body {
+  padding: 0 1rem;
+}
+.aside a {
+  color: #ffce00;
+}
+#body .aside a.highlight:after {
+  background-color: #ffce00;
+}
+.aside code {
+  background: rgba(64,64,64,0.2);
+  color: #fff;
+  font-size: 100%;
+  padding: 2px;
+}
+.aside.aside-tip {
+  background: #2A2A2A;
+  background: linear-gradient(24deg,rgba(42, 42, 42, 1) 0%, rgba(79, 39, 28, 1) 48%, rgba(79, 62, 29, 1) 100%);
+}
+.aside.aside-tip h4 {
+  background: rgba(92,184,92,0.8);
+}
+.aside.aside-note,
+.aside.aside-info {
+  background: #2A2A2A;
+  background-image: url("/images/helmet-bg.png"), linear-gradient(24deg,rgba(42, 42, 42, 1) 0%, rgba(79, 39, 28, 1) 48%, rgba(79, 62, 29, 1) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.aside.aside-note h4,
+.aside.aside-info h4 {
+  background: rgba(54, 23, 14, 0.5);
+}
+.aside.aside-danger {
+  background-color: #cc2936;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #c92936 0%, #ebbab9 100%);
+}
+.aside.aside-danger h4 {
+  background: rgba(201,41,54,0.4);
+}
