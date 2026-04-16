@@ -1,20 +1,16 @@
 +++
 title = 'Installation'
-weight = 1
+weight = 2
 +++
 
 To install Mad God’s Overhaul, you’ll need Wabbajack, a tool designed for the express purpose of installing big mod lists. (The fact that it’s named after a Daedric artifact created by the mad god himself is just a bonus.)
 
 ## Download Wabbajack
 
-1. Download `Wabbajack.exe` via the big colorful **Download Now** link on [wabbajack.org](http://wabbajack.org). The initial download is a single Windows executable file.
+Download <span class="file"><i class="fa fa-window-maximize"></i> Wabbajack.exe</span> via the big colorful <span class="btn-inline"><i class="fa fa-download"></i> Download Now</span> link on [wabbajack.org](http://wabbajack.org). The initial download is a single Windows executable file.
 
-<!--<div class="img wabbajack wj01">
-  <span>Step 1: Download <em>Wabbajack.exe</em> by clicking the <strong>Download Now</strong> button on <a href="https://wabbajack.org">wabbajack.org</a></span>
-</div>-->
-
-{{< caption name="wabbajack-web" type="png" >}}
-Step 1: Download _Wabbajack.exe_ by clicking the **Download Now** button on [wabbajack.org](https://wabbajack.org).
+{{< caption name="wabbajack-web" type="png" icon="quest-marker" >}}
+Click **Download Now** on [wabbajack.org](https://wabbajack.org).
 {{< /caption >}}
 
 {{< aside type="info" title="By the way..." >}}
@@ -27,43 +23,52 @@ You can also browse or search through  mod lists in the [Gallery](https://www.wa
 
 ## Install Wabbajack
 
-Once you’ve downloaded the executable, you will need to move it outside of your `📁 Downloads` folder before running it. If you're not sure where to put it, `📁 C:\Wabbajack` is fine. If you've installed it previously, you can overwrite your older version with the one you just downloaded.
+Once you’ve downloaded the executable, you will need to move it outside of your <span class="file"><i class="fa fa-folder-open"></i> Downloads</span> folder before running it. If you're not sure where to put it, <span class="file"><i class="fa fa-folder-open"></i> C:\Wabbajack</span> is fine. If you've installed it previously, you can overwrite your older version with the one you just downloaded.
 
 ## Sign in to Nexusmods within Wabbajack
 
-![Go straight to Settings when you launch Wabbajack](/images/wj-home.png)
+{{< caption name="wj-home" type="png" icon="quest-marker" >}}
+Go straight to **Settings** when you launch Wabbajack.
+{{< /caption >}}
 
-Launch the app, and it will download the latest version if necessary, and then we can start using it. There’s a great big Get Started button, but before you click that, go to `Settings` and sign into Nexusmods, even if you don’t have a premium subscription. Without being signed in, the automated requests will get you temporarily blocked over and over.
+Launch the app, and it will download the latest version if necessary, and then we can start using it. There’s a great big Get Started button, but before you click that, go to <span class="btn-inline"><i class="fa fa-gear"></i> Settings</span> and sign into Nexusmods, even if you don’t have a premium subscription. Without being signed in, the automated requests will get you temporarily blocked over and over.
 
-![Sign in to Nexusmods, even if you have a free account](/images/wj-settings.png)
+{{< caption name="wj-settings" type="png" icon="quest-marker" >}}
+Sign in to [Nexusmods](https://nexusmods.com), even if you only have a free account.
+{{< /caption >}}
 
-### Optional
+{{< aside type="info" title="By the way..." >}}
+With that done, you can click <i class="fa fa-cloud-arrow-down"></i> **Browse Lists**. This is where you’d find MGO if it were listed. At the moment, it isn’t, so we’ll download it directly from Nexusmods instead.
+{{< /aside >}}
 
-With that done, you can click `Browse Lists`. This is where you’d find the list if it were listed. At the moment, it isn’t, so we’ll download it directly from Nexusmods instead.
 
 ## Download the list from Nexusmods
 
-The Wabbajack lists for [MGO NSFW (not safe for work)](https://www.nexusmods.com/skyrimspecialedition/mods/107333) and [MGO SFW (safefor work) (SFW)](https://www.nexusmods.com/skyrimspecialedition/mods/107780) are both available for download on Nexusmods. Open the Nexus page for the version of your choice, and click the `Manual` download button near the upper-right.
+The <span class="file">.wabbajack</span> lists for [MGO NSFW (not safe for work)](https://www.nexusmods.com/skyrimspecialedition/mods/107333) and [MGO SFW (safe for work) (SFW)](https://www.nexusmods.com/skyrimspecialedition/mods/107780) are both available for download on Nexusmods. Open the Nexus page for the version of your choice, and click the <span class="btn-inline"><i class="fa fa-download"></i> Manual</span> download button near the upper-right.
 
-This is just the Wabbajack list that you’re downloading, without any of the actual mods, and even that's over 2 GB compressed. It is a 7-zip archive, and you’ll need to unpack it before using it, so first install [7-zip](https://www.7-zip.org/) if you don’t already have it.
+This is just the Wabbajack list that you’re downloading, without any of the actual mod content, and even that's over 2 GB compressed. It is a 7-zip archive, and you’ll need to unpack it before using it, so first install [7-zip](https://www.7-zip.org/) if you don’t already have it.
 
 ## Double-check the requirements
 
 While you're on Nexusmods, this is a good time to double-check that all of [MGO's requirements are in place](https://www.nexusmods.com/skyrimspecialedition/articles/6779).
 
-UNABLE TO DOWNLOAD
+{{< aside type="info" title="Requirements" >}}
 
-Set game to English
-Run Steam file validation
-Relog into Nexus in Wabbajack software
+**If you can't download...**
+* Set game to English
+* Run Steam file validation
+* Relog into Nexus in Wabbajack software
 
-**YOU MUST**
-* Have 32GB system memory, be using internal SSD and have a legit copy of the game from Steam
+**You must also...**
+* Have 32GB system memory
+* Use an internal SSD
+* Have a legit copy of Skyrim VR from Steam. **Pirated copies will not work.**
 * Download and install the latest [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * Download and install the latest [.NET x64 run-time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer)
 * Increase minimum virtual memory to 40GB or more ([screenshot](https://imgur.com/a/virtual-memory-DttXXhK)) 
 * Set shader cache to 10GB or more in Nvidia control panel (**TODO:** screenshot needed)
 * Move Skyrim out of C:\Program File folder to avoid issues with Antivirus and Defender (**TODO:** updated instructions)
+{{< /aside >}}
 
 ## Install Mad God's Overhaul
 

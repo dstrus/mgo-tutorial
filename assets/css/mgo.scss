@@ -10,20 +10,37 @@ body {
   font-size: 1rem;
 }
 
+.flex {
+  display: flex;
+}
+
+.file {
+  display: inline-block;
+  background-color: #d7b04b33;
+  padding: 0 6px;
+  border-radius: 10px;
+  font-family: var(--INTERNAL-CODE-font);
+}
+
+.btn-inline {
+  display: inline-block;
+  background-color: #0076ff33;
+  padding: 0 6px;
+  border-radius: 10px;
+  font-family: var(--INTERNAL-CODE-font);
+}
+
 div.img {
-  position: relative;
   margin: 0 auto 2rem;
-  padding-bottom: 4rem;
   max-width: 650px;
 
-  img {
+  &>img {
     width: 95%;
     max-width: 600px;
   }
-  span {
-    display: block;
-    position: absolute;
-    bottom: 0;
+  .caption {
+    align-items: center;
+    justify-content: center;
     background: #d7b04b;
     color: black;
     padding: 1rem;
@@ -31,6 +48,13 @@ div.img {
     font-size: 80%;
     text-align: center;
     width: 100%;
+    .grow {
+      flex: 1;
+    }
+    a {
+      color: #005fcc;
+      font-weight: bold;
+    }
   }
 }
 

@@ -1,4 +1,15 @@
 <div class="img">
   <img src="/images/{{ .Get "name" }}" srcset="/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
-  <span>{{ .Inner | .Page.RenderString }}</span>
+  {{ if len .Params | le 3 }}
+  <div class="caption flex">
+    <div>
+      <img src="/images/{{ .Get "icon" }}.png" srcset="/images/{{ .Get "icon" }}@2x.png 2x">
+    </div>
+    <div class="grow">
+      {{ .Inner | .Page.RenderString }}
+    </div>
+  </div>
+  {{ else }}
+  <div class="caption">{{ .Inner | .Page.RenderString }}</div>
+  {{ end }}
 </div>
