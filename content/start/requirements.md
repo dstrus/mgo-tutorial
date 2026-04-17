@@ -3,9 +3,21 @@ title = 'Requirements'
 weight = 10
 +++
 
-Mad God's Overhaul has a few prerequisites, so before you start downloading hundreds of gigabytes, be sure you're ready. You will not be able to download, install, and run the game unless you can meet these requirements.
+Mad God's Overhaul has a few prerequisites, so before you start downloading hundreds of gigabytes, be sure you're ready. The requirements are pretty steep, but there are some other excellent lists out there if your PC just can't cut it.
 
-{{< aside type="alert" title="Hard Requirements" >}}
+{{< aside type="alert" title="Hardware Requirements" >}}
+* For NVIDIA: GeForce RTX 4070, 3080, or better
+* For AMD: Radeon RX 7800 XT, 9070 XT, or better
+* At least 12 GB of VRAM
+* At least 32GB system memory
+* Internal NVMe storage with 400 GB available
+
+**The GPUs listed here are the _desktop_ versions.** The list is not nearly as widely tested on laptops. If you have a super high-end mobile GPU, perhaps an RTX 5090, you _may_ be able to run MGO.
+{{< /aside >}}
+
+If your hardware is up to the task, you will still not be able to download, install, and run the game unless you can meet the following software requirements.
+
+{{< aside type="alert" title="Software Requirements" >}}
 
 **You must...**
 * Have a legal copy of Skyrim VR from Steam. **Pirated copies will not work.**
@@ -17,13 +29,12 @@ Mad God's Overhaul has a few prerequisites, so before you start downloading hund
 
 You may be able to install MGO without fulfilling the next set of requirements, but it will be unplayable.
 
-{{< aside type="alert" title="Soft Requirements" >}}
+{{< aside type="alert" title="Other Requirements" >}}
 
 **You must...**
-* Have 32GB system memory
-* Use internal NVMe storage
-* Increase virtual memory to 40GB or more ([instructions](/appendices/90-virtual-memory/))
-* Set shader cache to 10GB or more in Nvidia control panel ([screenshot](/images/nvidia-shader-cache.png))
+
+* Increase virtual memory to 40GB or more ([instructions](/appendices/virtual-memory/))
+* **NVIDIA only**: Set shader cache to 10GB or more in Nvidia Control Panel ([screenshot](/images/nvidia-shader-cache.png))
 {{< /aside >}}
 
-The MGO community is both friendly and helpful, but please be certain that you've met all of the above requirements before asking for help.
+You'll find that the MGO community is both friendly and helpful, but please be certain that you've met all of the above requirements before asking for help.
