@@ -67,6 +67,10 @@ body {
   font-family: var(--INTERNAL-CODE-font);
 }
 
+video {
+  width: 100%;
+}
+
 div.img {
   margin: 0 auto 2rem;
   max-width: 650px;

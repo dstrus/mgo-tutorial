@@ -95,5 +95,5 @@ Double-check the requirements.
 Once the installation process has finished—which, again, will be awhile—Wabbajack will give you the option of opening the installation folder in <span class="file"><i class="fa fa-folder-tree"></i> File Explorer</span> or creating a shortcut.
 
 {{< aside type="btw" title="By the way..." >}}
-The shortcut that Wabbajack creates cannot be directly pinned to the Start Menu, so I recommend manually creating a shortcut for <span class="file">ModOrganizer.exe</span> and pinning that. You can easily rename the shortcut and assign it a different icon.
+The shortcut that Wabbajack creates cannot be directly pinned to the Start Menu. As luck would have it, <a href="/appendices/shortcut">I have a better way</a>.
 {{< /aside >}}
