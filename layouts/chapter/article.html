@@ -7,7 +7,7 @@
 {{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
 
 {{ partial "article-content.html" . }}
-  <a href="{{ (index .Pages 0).RelPermalink }}">Next: {{ (index .Pages 0).LinkTitle }}</a>
+  <div class="next"><a href="{{ (index .Pages 0).RelPermalink }}">{{ (index .Pages 0).LinkTitle }} <i class="fa fa-circle-right"></i></a></div>
 
   <footer class="footline">
     {{- partial "content-footer.html" . }}

@@ -1,18 +1,4 @@
 {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
-{{ with resources.Get "css/mgo.scss" }}
-  {{ $opts := dict "transpiler" "libsass"
-                   "outputStyle" "expanded"
-                   "targetPath" "css/demo.css" }}
-  {{ with . | toCSS $opts }}
-    {{ if hugo.IsDevelopment }}
-      <link rel="stylesheet" href="{{ .RelPermalink }}">
-    {{ else }}  
-      {{ with . | minify | fingerprint }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      {{ end }}
-    {{ end }}
-  {{ end }}
-{{ end }}
 <article class="default">
   <header class="headline">
     {{- partial "content-header.html" . }}
@@ -21,7 +7,7 @@
 
 {{ partial "article-content.html" . }}
   {{ with $pages.Next . }}
-    <a href="{{ .RelPermalink }}">Next: {{ .LinkTitle }}</a>
+    <div class="next"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} <i class="fa fa-circle-right"></i></a></div>
   {{ end }}
   <footer class="footline">
     {{- partial "content-footer.html" . }}

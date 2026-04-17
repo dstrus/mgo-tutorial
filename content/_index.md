@@ -16,4 +16,6 @@ This guide will walk you through setting up MGO, from download and installation 
 
 MGO includes somewhere in the neighborhood of 1,600 mods. You don’t need to be familiar with all of them to enjoy yourself, and the old, less-immersive ways of doing things are (mostly) still there, so you don’t have to memorize all the new stuff at once—or ever. But if you don’t even know what’s possible, you won’t know where to start to make the gameplay more immersive and, dare I say, more fun.
 
-[Let's go.](/start)
+<div class="next">
+  <a href="/start">Let's go.  <i class="fa fa-circle-right"></i></a>
+</div>

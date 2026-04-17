@@ -28,3 +28,17 @@
     --VARIABLE-LINK-color: #66adff;
 }
 </style>
+{{ with resources.Get "css/mgo.scss" }}
+  {{ $opts := dict "transpiler" "libsass"
+                   "outputStyle" "expanded"
+                   "targetPath" "css/demo.css" }}
+  {{ with . | toCSS $opts }}
+    {{ if hugo.IsDevelopment }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ else }}  
+      {{ with . | minify | fingerprint }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
