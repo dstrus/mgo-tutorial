@@ -1,6 +1,6 @@
 +++
 title = 'Installation'
-weight = 2
+weight = 20
 +++
 
 To install Mad God’s Overhaul, you’ll need Wabbajack, a tool designed for the express purpose of installing big mod lists. (The fact that it’s named after a Daedric artifact created by the mad god himself is just a bonus.)
@@ -9,7 +9,7 @@ To install Mad God’s Overhaul, you’ll need Wabbajack, a tool designed for th
 
 Download {{< file window-maximize >}}Wabbajack.exe{{< /file >}} via the big colorful {{< btn-inline download >}}Download Now{{< /btn-inline >}} link on [wabbajack.org](http://wabbajack.org). The initial download is a single Windows executable file.
 
-{{< caption name="wabbajack-web" type="png" icon="quest-marker" >}}
+{{< caption name="wabbajack-web" type="png" >}}
 Click **Download Now** on [wabbajack.org](https://wabbajack.org).
 {{< /caption >}}
 
@@ -27,13 +27,13 @@ Once you’ve downloaded the executable, you will need to move it outside of you
 
 ## Sign in to Nexusmods within Wabbajack
 
-{{< caption name="wj-home" type="png" icon="quest-marker" >}}
+{{< caption name="wj-home" type="png" >}}
 Go straight to **Settings** when you launch Wabbajack.
 {{< /caption >}}
 
 Launch the app, and it will download the latest version if necessary, and then we can start using it. There’s a great big **Get Started** button, but before you click that, go to {{< btn-inline gear >}}Settings{{< /btn-inline >}} and sign into Nexusmods, even if you don’t have a premium subscription. Without being signed in, the automated requests will get you temporarily blocked over and over.
 
-{{< caption name="wj-settings" type="png" icon="quest-marker" >}}
+{{< caption name="wj-settings" type="png" >}}
 Sign in to [Nexusmods](https://nexusmods.com), even if you only have a free account.
 {{< /caption >}}
 
