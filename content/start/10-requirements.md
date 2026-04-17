@@ -9,7 +9,7 @@ Mad God's Overhaul has a few prerequisites, so before you start downloading hund
 
 **You must...**
 * Have a legal copy of Skyrim VR from Steam. **Pirated copies will not work.**
-* Move Skyrim VR out of the <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files</span> folder to avoid issues with Windows Defender and other antivirus products (**TODO:** updated instructions)
+* Move Skyrim VR out of the <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files</span> folder to avoid issues with Windows Defender and other antivirus products ([instructions](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327#default))
 * Set Skyrim VR's language to English
 * Download and install the latest [Visual C++ Redistributable for X64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * Download and install the latest [.NET X64 run-time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer)
