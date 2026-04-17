@@ -78,7 +78,7 @@ Double-check the requirements.
 
 **If you can't download...**
 * Be sure you have a legal copy of Skyrim VR
-* Move Skyrim VR out of <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files</span>
+* Move Skyrim VR out of <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files (x86)</span>
 * Set game to English
 * Run Steam file validation
 * Log into Nexus in Wabbajack settings
