@@ -9,8 +9,8 @@ Mad God's Overhaul has a few prerequisites, so before you start downloading hund
 * For NVIDIA: GeForce RTX 4070, 3080, or better
 * For AMD: Radeon RX 7800 XT, 9070 XT, or better
 * At least 12 GB of VRAM
-* At least 32GB system memory
-* Internal NVMe storage with 400 GB available
+* At least 32 GB of system memory
+* Internal NVMe storage with 400 GB of free space
 
 **The GPUs listed here are the _desktop_ versions.** The list is not nearly as widely tested on laptops. If you have a super high-end mobile GPU, perhaps an RTX 5090, you _may_ be able to run MGO.
 {{< /aside >}}
@@ -27,7 +27,7 @@ If your hardware is up to the task, you will still not be able to download, inst
 * Download and install the latest [.NET X64 run-time <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer )
 {{< /aside >}}
 
-You may be able to install MGO without fulfilling the next set of requirements, but it will be unplayable.
+You may be able to install MGO without fulfilling the next set of requirements, but it may be unplayable.
 
 {{< aside type="alert" title="Other Requirements" >}}
 
