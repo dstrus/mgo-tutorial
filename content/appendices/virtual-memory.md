@@ -3,7 +3,7 @@ title = 'Virtual Memory'
 weight = 91
 +++
 
-Windows 11 has made it outrageously convoluted to find the virtual memory settings.
+Windows 11 has made it outrageously convoluted to reach its virtual memory settings.
 
 * Open {{< file gear >}}Settings{{< /file >}}.
 * Choose {{< btn-inline >}}System{{</ btn-inline >}} on the left.
