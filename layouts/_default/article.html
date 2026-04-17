@@ -1,3 +1,4 @@
+{{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
 {{ with resources.Get "css/mgo.scss" }}
   {{ $opts := dict "transpiler" "libsass"
                    "outputStyle" "expanded"
@@ -19,6 +20,9 @@
 {{ partial "heading-pre.html" . }}{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
 
 {{ partial "article-content.html" . }}
+  {{ with $pages.Next . }}
+    <a href="{{ .RelPermalink }}">Next: {{ .LinkTitle }}</a>
+  {{ end }}
   <footer class="footline">
     {{- partial "content-footer.html" . }}
   </footer>
