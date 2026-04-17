@@ -44,7 +44,7 @@ With that done, you can click {{< btn-inline cloud-arrow-down >}}Browse Lists{{<
 
 ## Download the list from Nexusmods
 
-The {{< file >}}.wabbajack{{< /file>}} lists for [MGO NSFW (not safe for work)](https://www.nexusmods.com/skyrimspecialedition/mods/107333) and [MGO SFW (safe for work) (SFW)](https://www.nexusmods.com/skyrimspecialedition/mods/107780) are both available for download on Nexusmods. Open the Nexus page for the version of your choice, and click the {{< btn-inline download >}}Browse Lists{{< /btn-inline >}} download button near the upper-right.
+The {{< file >}}.wabbajack{{< /file>}} lists for [MGO NSFW (not safe for work)](https://www.nexusmods.com/skyrimspecialedition/mods/107333) and [MGO SFW (safe for work) (SFW)](https://www.nexusmods.com/skyrimspecialedition/mods/107780) are both available for download on Nexusmods. Open the Nexus page for the version of your choice, and click the {{< btn-inline download >}}Manual{{< /btn-inline >}} download button near the upper-right.
 
 This is just the Wabbajack list that you’re downloading, without any of the actual mod content, and even that's over 2 GB compressed. It is a 7-zip archive, and you’ll need to unpack it before using it, so first install [7-zip](https://www.7-zip.org/) if you don’t already have it.
 
