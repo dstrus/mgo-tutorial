@@ -39,11 +39,12 @@ body {
 .next {
   margin-top: 2rem;
   text-align: center;
+  container-type: inline-size;
   a {
     display: inline-block;
     font-weight: bold;
     max-width: 600px;
-    font-size: 2rem;
+    font-size: 4cqw;
     text-decoration: none;
     position: relative;
     color: #eee;
