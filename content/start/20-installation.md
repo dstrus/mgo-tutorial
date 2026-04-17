@@ -85,7 +85,7 @@ Double-check the requirements.
 
 **You must also...**
 * Have 32GB system memory
-* Use an internal SSD
+* Use internal NVMe storage
 * Download and install the latest [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * Download and install the latest [.NET x64 run-time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer)
 * Increase minimum virtual memory to 40GB or more ([screenshot](https://imgur.com/a/virtual-memory-DttXXhK)) 
