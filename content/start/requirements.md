@@ -3,7 +3,7 @@ title = 'Requirements'
 weight = 1
 +++
 
-Before you start downloading massive files, Mad God's Overhaul has a few prerequisites. You will not be able to download, install, and run the game unless you can meet these requirements.
+Mad God's Overhaul has a few prerequisites, so before you start downloading hundreds of gigabytes, be sure you're ready. You will not be able to download, install, and run the game unless you can meet these requirements.
 
 {{< aside type="alert" title="Hard Requirements" >}}
 
