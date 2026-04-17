@@ -1,0 +1,15 @@
+{{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
+<article class="chapter narrow">
+  <header class="headline">
+    {{- partial "content-header.html" . }}
+  </header>
+{{ partial "heading-pre.html" . }}{{ with .Params.Weight }}<div class="article-subheading">{{ T "Chapter" . }}</div>{{ end }}
+{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
+
+{{ partial "article-content.html" . }}
+  <a href="{{ (index .Pages 0).RelPermalink }}">Next: {{ (index .Pages 0).LinkTitle }}</a>
+
+  <footer class="footline">
+    {{- partial "content-footer.html" . }}
+  </footer>
+</article>
