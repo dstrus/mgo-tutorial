@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://daveystrus.com/mgo-tutorial/'
+CanonifyURLs=true
 locale = 'en-us'
 title = "Mad God's Overhaul for Skyrim VR"
 theme = 'relearn'
