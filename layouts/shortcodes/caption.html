@@ -1,9 +1,9 @@
 <div class="img">
-  <img src="/images/{{ .Get "name" }}" srcset="/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
+  <img src="/images/{{ .Get "name" }}.{{.Get "type" | default "png" }}" srcset="/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
   {{ if len .Params | le 3 }}
   <div class="caption flex">
     <div>
-      <img src="/images/{{ .Get "icon" }}.png" srcset="/images/{{ .Get "icon" }}@2x.png 2x">
+      <img src="/images/{{ .Get "icon" }}.{{.Get "type" | default "png" }}" srcset="/images/{{ .Get "icon" }}@2x.{{.Get "type" | default "png" }} 2x">
     </div>
     <div class="grow">
       {{ .Inner | .Page.RenderString }}
