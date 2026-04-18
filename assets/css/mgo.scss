@@ -39,6 +39,13 @@ body {
   }
 }
 
+h2 {
+  line-height: 1em;
+  .anchor {
+    margin-top: 0;
+  }
+}
+
 .topbar-breadcrumbs {
   font-size: 1rem;
 }
