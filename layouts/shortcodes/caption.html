@@ -1,5 +1,7 @@
 <div class="img {{ .Get "border" | default "" }}">
-  <img id="img-{{ .Get "name" }}" src="/mgo-tutorial/images/{{ .Get "name" }}.{{.Get "type" | default "png" }}" srcset="/mgo-tutorial/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
+  <a href="/mgo-tutorial/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }}">
+    <img id="img-{{ .Get "name" }}" src="/mgo-tutorial/images/{{ .Get "name" }}.{{.Get "type" | default "png" }}" srcset="/mgo-tutorial/images/{{ .Get "name" }}@2x.{{.Get "type" | default "png" }} 2x">
+  </a>
   {{ if len .Params | le 4 }}
   <div class="caption flex">
     <div>
