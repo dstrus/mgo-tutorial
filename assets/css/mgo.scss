@@ -9,6 +9,20 @@ body {
   font-size: 1.2rem;
 }
 
+#R-homelinks {
+  ul.collapsible-menu {
+    &>li {
+      &>a {
+        display: flex;
+      }
+    }
+  }
+  svg {
+    height: 20px;
+    padding-right: 0.5em;
+  }
+}
+
 #R-logo.R-default {
   column-gap: 1em;
   .logo-title {
