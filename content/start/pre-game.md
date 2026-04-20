@@ -67,4 +67,4 @@ If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**,
 
 If you have a headset designed specifically for Steam VR—_e.g._ Valve Index, Bigscreen Beyond, HTC Vive Pro, Varjo VR-3—you don't need Open Composite.
 
-If you have a headset that doesn't use Steam base stations (aka lighthouse tracking)—_e.g._ Meta Quest series, PICO series, Vive XR Elite—then you may benefit from Open Composite. [Read more about Open Composite and Open Composite Unleashed.](/appendices/open-composite).
+If you have a headset that doesn't use Steam base stations (aka lighthouse tracking)—_e.g._ Meta Quest series, PICO series, Vive XR Elite—then you may benefit from Open Composite. [Read more about Open Composite and Open Composite Unleashed.](/appendices/open-composite)
