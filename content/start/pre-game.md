@@ -92,7 +92,7 @@ If you have a headset that doesn't use Steam base stations (aka lighthouse track
   <input type="checkbox" class="readonly"> Controller Bindings - Kvite
 </div>
 
-Skyrim VR's default controls are, frankly, kind of bad—especially with the mods included in Mad God's Overhaul. MGO comes with three optional control schemes to choose from. Choose only one of these. If they're all disabled (and you're not using OC Unleashed), Skyrim VR's default controls will apply.
+**STEP 3** provides three alternate control schemes. Skyrim VR's default controls are, frankly, kind of bad—especially with the mods included in Mad God's Overhaul. MGO comes with three optional control schemes to choose from. Choose only one of these. If they're all disabled (and you're not using OC Unleashed), Skyrim VR's default controls will apply.
 
 {{< aside type="alert" title="OC Unleashed compatibility" >}}
 These controller binding options will not work with OC Unleashed enabled because OCU includes controller bindings of its own. You can use the OCU desktop app to select any of these bindings from there, and that will work.
@@ -109,6 +109,8 @@ These controller binding options will not work with OC Unleashed enabled because
 <div class="separator subsub blue6">
   <i class="fa fa-folder"></i> ▸▸▸ Grass Density - 15% Exterior FPS Cost
 </div>
+
+**STEP 4** includes a variety of performance-related presets.
 
 There are _Performance_ and _Quality_ presets for **Community Shaders** and **Grass Density**. Switching to the _Quality_ presets will have a fairly significant impact to your outdoor framerate. Whether that's worth it is up to you, but you'll need a pretty serious PC to maintain a comfortable framerate if you set both to _Quality_.
 
@@ -130,3 +132,69 @@ MGO includes presets for VR Performance Toolkit and VR FPS Stabilizer. These can
 {{< aside type="alert" title="Open Composite compatibility" >}}
 VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with _either_ version of Open Composite, OC Unleashed includes similar performance options through its desktop app.
 {{< /aside >}}
+
+---
+## Optional Mods
+<div class="separator sub blue5">
+  <i class="fa fa-folder"></i> ▸▸ OPTIONAL Mods - Expand to Select
+</div>
+<div class="separator subsub blue6">
+  <i class="fa fa-folder"></i> ▸▸▸ AI and Speech - Read Nexus Article
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Dragonborn Speaks Naturally
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> No NPC Greetings (Special Edition)
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Mantella - Bring NPCs to Life with AI
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Mantella - Expanded Piper Models List
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> SSE Creation Kit Fonixdata Lip Sync Fix
+</div>
+
+MGO includes a number of optional mods in several categories. They're all tested and known to work with the list, but you'll need to enable them yourself.
+
+<div class="separator subsub blue7">
+  <i class="fa fa-folder"></i> ▸▸▸ Audio - New Music
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> LORKHAN - Soundtrack Replacer
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Chapter II - Jeremy Soule Inspired Music
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Unique Battle Music
+</div>
+
+This section has additional music for the game.
+
+<div class="separator subsub blue8">
+  <i class="fa fa-folder"></i> ▸▸▸ Convenience
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> VR Menu Mouse Fix
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Stable Hands - VR Mouse Stabilization mod
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Undress Spell
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Spell Auto-Aim VR
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Better Sleep Wait Menu
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> Stop Trigger Unsheathing For VR
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly" checked> Infinite Stamina Out of Combat
+</div>
