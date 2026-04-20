@@ -58,7 +58,6 @@ body {
 }
 
 .cover {
-  // background-image: url(/mgo-tutorial/images/ss-dragonsreach.webp);
   background-size: cover;
   background-position: center;
   padding: 2rem 0;
@@ -135,7 +134,23 @@ input.readonly {
     color: black;
   }
   &.blue3 {
-    background-color: #508aeb;
+    background-color: #70a3ee;
+    color: black;
+  }
+  &.blue4 {
+    background-color: #85b2f0;
+    color: black;
+  }
+  &.blue5 {
+    background-color: #99bff1;
+    color: black;
+  }
+  &.blue6 {
+    background-color: #aecdf4;
+    color: black;
+  }
+  &.blue7 {
+    background-color: #c0dbf5;
     color: black;
   }
 }

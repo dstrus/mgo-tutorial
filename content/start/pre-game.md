@@ -48,6 +48,7 @@ Scroll down the mod list until you see a folder labeled {{< btn-inline folder >}
 If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**, **STEP 2**, etc.
 
 ---
+## Startup Notes
 <div class="separator sub blue1">
   <i class="fa fa-folder"></i> ▸▸ STEP 1 - Startup Notes - PLEASE READ BEFORE REPORTING ISSUES
 </div>
@@ -59,6 +60,7 @@ If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**,
 * <span class="highlight">DO NOT Use Loot Sort on Plugins</span> - LOOT is a tool that automatically sorts plugins (the files listed on the right side of MO2) to be loaded in an order that's better optimized than if you just added them without much thought. **The plugins in Mad God's Overhaul have already been carefully sorted by hand.** You shouldn't mess with that order.
 
 ---
+## Open Composite (Unleashed)
 <div class="separator sub blue2">
   <i class="fa fa-folder"></i> ▸▸ STEP 2 - Enable to Use Open Composite (Replaces Steam VR)
 </div>
@@ -74,3 +76,57 @@ If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**,
 If you have a headset designed specifically for Steam VR—_e.g._ Valve Index, Bigscreen Beyond, HTC Vive Pro, Varjo VR-3—you don't need Open Composite.
 
 If you have a headset that doesn't use Steam base stations (aka lighthouse tracking)—_e.g._ Meta Quest series, PICO series, Vive XR Elite—then you may benefit from Open Composite. [Read more about Open Composite and Open Composite Unleashed.](/appendices/open-composite)
+
+---
+## Controller Bindings
+<div class="separator sub blue3">
+  <i class="fa fa-folder"></i> ▸▸ STEP 3 - Select One Controller Bindings
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VRIK Rift-Index-WMR Controller Bindings - Grip to Interact
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> Alternative VRIK Controller Bindings - Easy Shout
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> Controller Bindings - Kvite
+</div>
+
+Skyrim VR's default controls are, frankly, kind of bad—especially with the mods included in Mad God's Overhaul. MGO comes with three optional control schemes to choose from. Choose only one of these. If they're all disabled (and you're not using OC Unleashed), Skyrim VR's default controls will apply.
+
+{{< aside type="alert" title="OC Unleashed compatibility" >}}
+These controller binding options will not work with OC Unleashed enabled because OCU includes controller bindings of its own. You can use the OCU desktop app to select any of these bindings from there, and that will work.
+{{< /aside >}}
+
+---
+## Performance Options
+<div class="separator sub blue4">
+  <i class="fa fa-folder"></i> ▸▸ STEP 4 - Select Performance Options
+</div>
+<div class="separator subsub blue5">
+  <i class="fa fa-folder"></i> ▸▸▸ Community Shaders - 10% Exterior FPS Cost
+</div>
+<div class="separator subsub blue6">
+  <i class="fa fa-folder"></i> ▸▸▸ Grass Density - 15% Exterior FPS Cost
+</div>
+
+There are _Performance_ and _Quality_ presets for **Community Shaders** and **Grass Density**. Switching to the _Quality_ presets will have a fairly significant impact to your outdoor framerate. Whether that's worth it is up to you, but you'll need a pretty serious PC to maintain a comfortable framerate if you set both to _Quality_.
+
+<div class="separator subsub blue7">
+  <i class="fa fa-folder"></i> ▸▸▸ VR Performance Kit - Not Compatible with OC
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly" checked> VR FPS Stabilizer Preset - TAA Tweaks
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> VR Performance Kit - CAS Sharpening
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> VR Performance Kit - FSR - Use with DLAA
+</div>
+
+MGO includes presets for VR Performance Toolkit and VR FPS Stabilizer. These can help you reach a nice balance between performance and image quality.
+
+{{< aside type="alert" title="Open Composite compatibility" >}}
+VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with _either_ version of Open Composite, OC Unleashed includes similar performance options through its desktop app.
+{{< /aside >}}
