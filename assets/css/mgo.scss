@@ -155,6 +155,28 @@ input.readonly {
   }
 }
 
+#R-body .svg {
+  &.nexus,
+  &.github {
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 6px;
+    border-radius: 10px;
+    svg {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      vertical-align: middle;
+    }
+  }
+  &.nexus {
+    background-color: #f7e4d433;
+  }
+  &.github {
+    background-color: #66666633;
+  }
+}
+
 .next {
   margin-top: 2rem;
   text-align: center;
