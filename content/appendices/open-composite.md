@@ -30,7 +30,7 @@ Because OCU includes controller bindings out of the box, it will override any co
 Performance settings in the OC Unleashed desktop app
 {{< /caption >}}
 
-**Advanced performance options.** The OCU desktop has support for several performance-tuning options built in for both NVIDIA and AMD users. You can use the app to enable upscaling via FSR3 (AMD FidelityFX Super Resolution) or DLSS (NVIDIA only). It also includes ASW (Asynchronous SpaceWarp) for frame-rate smoothing, and Fixed Foveated Rendering (NVIDIA only).
+**Advanced performance options.** The OCU desktop app has support for several performance-tuning options built in for both NVIDIA and AMD users. You can use the app to enable upscaling via FSR3 (AMD FidelityFX Super Resolution) or DLSS (NVIDIA only). It also includes ASW (Asynchronous SpaceWarp) for frame-rate smoothing, and Fixed Foveated Rendering (NVIDIA only).
 
 {{< aside type="btw" title="Choose a SpaceWarp" >}}
 Don't combine OCU's Asynchronous SpaceWarp with Virtual Desktop's Synchronous SpaceWarp. Of the two, ASW is likely to result in better image quality with similar performance, so try turning off SSW and giving ASW a shot.
