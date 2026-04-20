@@ -3,9 +3,8 @@
   <header class="headline">
     {{- partial "content-header.html" . }}
   </header>
-{{ partial "heading-pre.html" . }}{{ with .Params.Weight }}<div class="article-subheading">{{ T "Chapter" . }}</div>{{ end }}
-{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
 
+{{ partial "heading.html" . }}{{ partial "heading-post.html" . }}
 {{ partial "article-content.html" . }}
   <div class="next"><a href="{{ (index .Pages 0).RelPermalink }}">{{ (index .Pages 0).LinkTitle }} <i class="fa fa-circle-right"></i></a></div>
 
