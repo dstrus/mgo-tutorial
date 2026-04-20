@@ -1,5 +1,20 @@
+@font-face {
+  font-family: 'Sovngarde';
+  src: url('/mgo-tutorial/images/SovngardeLight.woff2')
+       format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --INTERNAL-CODE-INLINE-color: #eeeeee;
+  --LOGO-font: Sovngarde, 'Roboto Flex';
+  --LOGO-font-size: 0.8rem;
+  --INTERNAL-MAIN-TITLES-H1-font: Sovngarde, 'Roboto Flex';
+  --INTERNAL-MAIN-TITLES-H2-font: Sovngarde, 'Roboto Flex';
+  --INTERNAL-MAIN-TITLES-H3-font: Sovngarde, 'Roboto Flex';
+  --VARIABLE-LINK-color: #66adff;
   --mgo-gold: #d7b04b;
   --mgo-red: #ba2813;
   --mgo-blue: #2f81eb;
