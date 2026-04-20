@@ -127,7 +127,7 @@ There are _Performance_ and _Quality_ presets for **Community Shaders** and **Gr
   <input type="checkbox" class="readonly"> VR Performance Kit - FSR - Use with DLAA
 </div>
 
-MGO includes presets for VR Performance Toolkit and VR FPS Stabilizer. These can help you reach a nice balance between performance and image quality.
+MGO includes presets for [VR Performance Toolkit](https://github.com/fholger/vrperfkit) and [VR FPS Stabilizer(https://www.nexusmods.com/skyrimspecialedition/mods/31392). These can help you reach a nice balance between performance and image quality.
 
 {{< aside type="alert" title="Open Composite compatibility" >}}
 VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with _either_ version of Open Composite, OC Unleashed includes similar performance options through its desktop app.

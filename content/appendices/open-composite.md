@@ -5,7 +5,7 @@ weight = 93
 
 If you have a headset that doesn't use base stations, then Steam VR has to translate the game's instructions as it runs in order for your headset to work. **You probably want to use Open Composite.** Both variants of Open Composite bypass Steam VR, which should provide a performance benefit.
 
-**OC Unleashed** is enabled by default, and it adds a number of features beyond simply bypassing Steam VR's overhead.
+[**OC Unleashed**](https://www.nexusmods.com/skyrimspecialedition/mods/171182) is enabled by default, and it adds a number of features beyond simply bypassing Steam VR's overhead.
 
 ---
 {{< caption name="ocu-keyboard-console" type="webp" >}}
