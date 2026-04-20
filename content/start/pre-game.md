@@ -17,7 +17,13 @@ To play, click the <span class="btn-inline"><i class="fa fa-play"></i> Run</span
 
 When MO2 has finished loading, you can launch the game with the {{< btn-inline play >}}Run{{< /btn-inline >}} button near the upper-right, with {{< btn-inline >}}Launch MGO - Do Not Unlock{{< /btn-inline >}} selected in the nearby dropdown. You should always launch MGO this way. Don't just run Skyrim VR from Steam. That will launch the vanilla (unmodded) game. To play MGO, you need to run it from MO2.
 
-But first, let's take a quick look around.
+
+
+{{< aside type="btw" title="Skip to the game" >}}
+You can use the <span class="btn-inline"><i class="fa-solid fa-share"></i> Shortcut</span> dropdown to add a shortcut directly to launching the game, eliminating the need to run MO2 first.
+{{< /aside >}}
+
+Before jumping into Tamriel, you might want to take a quick look around MO2.
 
 {{< aside type="btw" title="Mods & Plugins" >}}
 Mod Organizer 2's interface is basically split in two: **mods** on the left, **plugins** on the right.
