@@ -1,6 +1,6 @@
 +++
 title = 'VRIK Bindings'
-weight = 94
+weight = 1
 +++
 
 These are the controller bindings defined in the modlist entry {{< btn-inline >}}VRIK Rift-Index-WMR...{{< /btn-inline >}}, which is an optional download for the legendary {{< nexus 23416 >}} VRIK Player Avatar{{< /nexus >}} mod.

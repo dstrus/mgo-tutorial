@@ -164,9 +164,9 @@ input.readonly {
     border-radius: 10px;
     svg {
       display: inline-block;
+      vertical-align: middle;
       width: 16px;
       height: 16px;
-      vertical-align: middle;
     }
   }
   &.nexus {
