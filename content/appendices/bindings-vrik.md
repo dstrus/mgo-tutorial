@@ -9,7 +9,7 @@ It is also the default control scheme for {{< nexus 171182 >}}Open Composite Unl
 
 ![VRIK bindings for Meta Quest](/images/quest-vrik.webp)
 
-### Main Gameplay
+### Gameplay
 
 | Action | Oculus Left | Oculus Right |
 |---|---|---|
@@ -18,8 +18,16 @@ It is also the default control scheme for {{< nexus 171182 >}}Open Composite Unl
 | Jump | — | Right Stick ↑ |
 | Sneak | — | Right Stick ↓ |
 | Power Attack | Trigger | Trigger |
-| Activate | — | Right Grip |
+| Interact | — | Right Grip |
 | Sprint | Left Grip | — |
 | Shout | — | A |
 | Tween / Ready Weapon | X | — |
 | Journal / Wait | Y | — |
+
+### Menu
+
+| Action | Oculus Left | Oculus Right |
+|---|---|---|
+| Accept | Trigger | A / Trigger |
+| Cancel | Left Grip | Right Grip |
+| Y Button | Y | - |
