@@ -159,6 +159,7 @@ VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with
 
 MGO includes a number of optional mods in several categories. They're all tested and known to work with the list, but you'll need to enable them yourself.
 
+---
 <div class="separator subsub blue7">
   <i class="fa fa-folder"></i> ▸▸▸ Audio - New Music
 </div>
@@ -172,8 +173,15 @@ MGO includes a number of optional mods in several categories. They're all tested
   <input type="checkbox" class="readonly"> Unique Battle Music
 </div>
 
-This section has additional music for the game.
+MGO includes several options for supplementing or replacing Jeremy Soule's original music for Skyrim.
 
+{{< nexus 115096 >}}LORKHAN - Soundtrack Replacer{{< /nexus >}} by {{< youtube youngscrolls >}}young scrolls{{< /youtube >}} contains around 3 hours of original music, completely replacing Jeremy Soule's OST (with one late-game exception). The style is an intentional departure from Soule's but is very high quality and lore-friendly.
+
+{{< nexus 37792 >}}Chapter II - Jeremy Soule Inspired Music{{< /nexus >}} by Dutch composer {{< youtube "channel/UC4eMkoptENROhVqc2Te-7aw" >}}Scott Rozemeijer{{< /youtube >}} supplements Soule's OST with around 3 hours of additional ambient music that attempts to match Soule's style and instrumentation.
+
+{{< nexus 91231 >}}Unique Battle Music{{< /nexus >}}, curated by Clofas, adds {{< ext "https://elements.envato.com/collections/UKWZYRNFX3" >}}54 licensed tracks{{< /ext >}} by various artists, replacing the eight Jeremy Soule compositions used in battles in the OST.
+
+---
 <div class="separator subsub blue8">
   <i class="fa fa-folder"></i> ▸▸▸ Convenience
 </div>
