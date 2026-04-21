@@ -45,7 +45,7 @@ With that done, you can click {{< btn-inline cloud-arrow-down >}}Browse Lists{{<
 
 The {{< file >}}.wabbajack{{< /file>}} lists for {{< nexus 107333 >}} MGO <abbr title="Not Safe For Work">NSFW</abbr>{{< /nexus >}} and {{< nexus 107780 >}} MGO <abbr title="Safe For Work">SFW</abbr>{{< /nexus >}} are both available for download on Nexusmods. Open the Nexus page for the version of your choice, and click the {{< btn-inline download >}}Manual{{< /btn-inline >}} download button near the upper-right.
 
-This is just the Wabbajack list that you’re downloading, without any of the actual mod content, and even that's over 2 GB compressed. It is a 7-zip archive, and you’ll need to unpack it before using it, so first install [7-Zip <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://www.7-zip.org/) if you don’t already have it.
+This is just the Wabbajack list that you’re downloading, without any of the actual mod content, and even that's over 2 GB compressed. It is a 7-zip archive, and you’ll need to unpack it before using it, so first install {{< ext "https://www.7-zip.org/" >}}7-Zip{{< /ext >}} if you don’t already have it.
 
 
 ## Install Mad God's Overhaul

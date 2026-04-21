@@ -21,10 +21,10 @@ If your hardware is up to the task, you will still not be able to download, inst
 
 **You must...**
 * Have a legal copy of Skyrim VR from Steam. **Pirated copies will not work.**
-* Move Skyrim VR out of the <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files (x86)</span> folder to avoid issues with Windows Defender and other antivirus products ([instructions <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327#default))
+* Move Skyrim VR out of the <span class="file"><i class="fa fa-folder-open"></i> C:\Program Files (x86)</span> folder to avoid issues with Windows Defender and other antivirus products ({{< ext "https://help.steampowered.com/en/faqs/view/4BD4-4528-6B2E-8327#default" >}}instructions{{< /ext >}})
 * Set Skyrim VR's language to English
-* Download and install the latest [Visual C++ Redistributable for X64 <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-* Download and install the latest [.NET X64 run-time <i class="fa-solid fa-arrow-up-right-from-square"></i>](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer)
+* Download and install the latest {{< ext "https://aka.ms/vs/17/release/vc_redist.x64.exe" >}}Visual C++ Redistributable for X64{{< /ext >}}
+* Download and install the latest {{< ext "https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer" >}}.NET X64 run-time{{< /ext >}}
 
 **You will need to reboot your PC after you've installed the two runtimes.**
 {{< /aside >}}
