@@ -135,9 +135,16 @@ VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with
 
 ---
 ## Optional Mods
+
 <div class="separator sub blue5">
   <i class="fa fa-folder"></i> ▸▸ OPTIONAL Mods - Expand to Select
 </div>
+
+MGO includes a number of optional mods in several categories. They're all tested and known to work with the list, but you'll need to enable them yourself.
+
+---
+## AI and Speech
+
 <div class="separator subsub blue6">
   <i class="fa fa-folder"></i> ▸▸▸ AI and Speech - Read Nexus Article
 </div>
@@ -157,7 +164,11 @@ VR Performance Toolkit and VR FPS Stabilizer auto-config are not compatible with
   <input type="checkbox" class="readonly"> SSE Creation Kit Fonixdata Lip Sync Fix
 </div>
 
-MGO includes a number of optional mods in several categories. They're all tested and known to work with the list, but you'll need to enable them yourself.
+This section includes mods for incorporating AI NPCs into the game, as well as the option to use your own voice in conversations (even without enabling the AI features).
+
+Be sure to check out the {{< ext "https://www.nexusmods.com/skyrimspecialedition/articles/7032" >}}Nexus article{{< /ext >}} for setup instructions.
+
+{{< nexus 16514 >}}Dragonborn Speaks Naturally{{< /nexus >}} adds speech recognition to the game. In dialogue/ceonversation menus, you can speak your dialogue from the available options, rather than selecting it with your controller. (This is unrelated to the AI features described below.)
 
 ---
 <div class="separator subsub blue7">
