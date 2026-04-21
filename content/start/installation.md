@@ -88,7 +88,7 @@ Double-check the requirements.
 * Download and install the latest [Visual C++ x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 * Download and install the latest [.NET x64 run-time](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.11-windows-x64-installer)
 * Increase minimum virtual memory to 40GB or more ([screenshot](https://imgur.com/a/virtual-memory-DttXXhK)) 
-* Set shader cache to 10GB or more in Nvidia control panel (**TODO:** screenshot needed)
+* **NVIDIA only**: Set shader cache to 10GB or more in NVIDIA Control Panel ([instructions](/appendices/shader-cache/))
 {{< /aside >}}
 
 Once the installation process has finished—which, again, will be awhile—Wabbajack will give you the option of opening the installation folder in <span class="file"><i class="fa fa-folder-tree"></i> File Explorer</span> or creating a shortcut.
