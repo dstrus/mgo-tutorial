@@ -31,7 +31,8 @@ const backgroundImages = [
   '/mgo-tutorial/images/bg-molag-bal.webp',
   '/mgo-tutorial/images/bg-nightingales.webp',
   '/mgo-tutorial/images/bg-krosis.webp',
-  '/mgo-tutorial/images/bg-daedric-helmet.webp'
+  '/mgo-tutorial/images/bg-daedric-helmet.webp',
+  '/mgo-tutorial/images/bg-dwarven-helmet.webp'
 ];
 window.onload = function() {
   const alertBoxes = document.querySelectorAll('.aside-alert .body');
