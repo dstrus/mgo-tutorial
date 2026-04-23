@@ -22,3 +22,19 @@ window.onload = function() {
     cover.style.backgroundImage = `url(${randomImage})`;
   }
 };
+
+const backgroundImages = [
+  '/mgo-tutorial/images/bg-amulet-of-mara.webp',
+  '/mgo-tutorial/images/bg-clavicus-vile.webp',
+  '/mgo-tutorial/images/bg-golden-claw.webp',
+  '/mgo-tutorial/images/bg-miraak.webp',
+  '/mgo-tutorial/images/bg-molag-bal.webp',
+  '/mgo-tutorial/images/bg-nightingales.webp'
+];
+window.onload = function() {
+  const alertBoxes = document.querySelectorAll('.aside-alert .body');
+  alertBoxes.forEach(function(alertBox) {
+    const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
+    alertBox.style.backgroundImage = `url(${randomImage})`;
+  });
+};
