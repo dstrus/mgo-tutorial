@@ -217,3 +217,7 @@ MGO includes several options for supplementing or replacing Jeremy Soule's origi
 <div class="mod subsub">
   <input type="checkbox" class="readonly" checked> Infinite Stamina Out of Combat
 </div>
+
+<div class="next">
+  <a href="/mgo-tutorial/first-launch">First Launch <i class="fa fa-circle-right"></i></a>
+</div>
