@@ -15,13 +15,6 @@ const bannerImages = [
   '/mgo-tutorial/images/ss-rorikstead.webp',
   '/mgo-tutorial/images/ss-archaeology.webp'
 ];
-window.onload = function() {
-  const cover = document.querySelector('.cover');
-  if (cover) {
-    const randomImage = bannerImages[Math.floor(Math.random() * bannerImages.length)];
-    cover.style.backgroundImage = `url(${randomImage})`;
-  }
-};
 
 const backgroundImages = [
   '/mgo-tutorial/images/bg-amulet-of-mara.webp',
@@ -35,6 +28,12 @@ const backgroundImages = [
   '/mgo-tutorial/images/bg-dwarven-helmet.webp'
 ];
 window.onload = function() {
+  const cover = document.querySelector('.cover');
+  if (cover) {
+    const randomImage = bannerImages[Math.floor(Math.random() * bannerImages.length)];
+    cover.style.backgroundImage = `url(${randomImage})`;
+  }
+  
   const alertBoxes = document.querySelectorAll('.aside-alert .body');
   alertBoxes.forEach(function(alertBox) {
     const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
