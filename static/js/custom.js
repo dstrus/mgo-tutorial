@@ -22,7 +22,6 @@ const backgroundImages = [
   '/mgo-tutorial/images/bg-golden-claw.webp',
   '/mgo-tutorial/images/bg-miraak.webp',
   '/mgo-tutorial/images/bg-molag-bal.webp',
-  '/mgo-tutorial/images/bg-nightingales.webp',
   '/mgo-tutorial/images/bg-krosis.webp',
   '/mgo-tutorial/images/bg-daedric-helmet.webp',
   '/mgo-tutorial/images/bg-dwarven-helmet.webp'
@@ -33,7 +32,7 @@ window.onload = function() {
     const randomImage = bannerImages[Math.floor(Math.random() * bannerImages.length)];
     cover.style.backgroundImage = `url(${randomImage})`;
   }
-  
+
   const alertBoxes = document.querySelectorAll('.aside-alert .body');
   alertBoxes.forEach(function(alertBox) {
     const randomImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
