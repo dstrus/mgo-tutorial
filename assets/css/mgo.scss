@@ -23,10 +23,13 @@
 
 body {
   font-size: 1.2rem;
+  background: url(/mgo-tutorial/images/background-tile.png);
+  background-attachment: fixed;
 }
 
-main {
+#R-sidebar li.active > a {
   background: url(/mgo-tutorial/images/background-tile.png);
+  background-attachment: fixed;
 }
 
 #R-homelinks {
@@ -350,7 +353,7 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-  main {
+  body {
     background: url(/mgo-tutorial/images/background-tile@2x.png);
     background-size: 200px 200px;
   }
