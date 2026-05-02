@@ -32,3 +32,5 @@ Press <kbd>END</kbd> on your keyboard to open the CS overlay.
 {{< /caption >}}
 
 You can make a huge variety of adjustments from this settings overlay, but the defaults represent a reasonable balance between image quality and performance for most players. Feel free to read documentation, Nexus posts, Discord posts, etc. and tweak to your heart's content. Fair warning though: With everything cranked up, CS can make even the mightiest machine howl in pain (figuratively speaking).
+
+When it finishes—and it will finish—it's time to play!
