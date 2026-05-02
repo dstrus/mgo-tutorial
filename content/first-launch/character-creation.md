@@ -21,14 +21,14 @@ Some RaceMenu features, like face sculpt mode, don't work in VR, and the VR vers
 So many sliders! Character creation with RaceMenu in MGO.
 {{< /caption >}}
 
-Adjusting the RaceMenu sliders is a bit more difficult in VR. There are a couple of ways to do it. You can point directly at the marker with your motion controller, hold down the <kbd>A</kbd> button, and move your controller left and right to adjust each slider. You have to initially point pretty precisely, but once you begin holding down the <kbd>A</kbd> button, you can rest assured that you'll be adjusting that same slider until you release the button. That initial selection is easier if you can move closer to where the RaceMenu UI appears. (You aren't able to use the thumbsticks to move while the RaceMenu is active, so you have to move in your physical space.)
+Adjusting the RaceMenu sliders is a bit more difficult in VR. There are a couple of ways to do it. You can point directly at the marker with your motion controller, hold down the <kbd>A</kbd> button, and move your controller left and right to adjust each slider. You have to initially point pretty precisely, but once you begin holding down the <kbd>A</kbd> button, you can rest assured that you'll be adjusting that same slider until you release the button. That initial selection is easier if you can move closer to where the RaceMenu UI appears. (You aren't able to use the thumbsticks to move while the RaceMenu is active, so you'll have to move in your physical space.)
 
 <video controls>
   <source src="/images/racemenu-sliders.mp4" type="video/mp4">
 Your browser does not support this video.
 </video>
 
-The other approach is to point just above the slider and use the thumbstick on the same hand to move it left and right. It requires a bit less precision than the other approach, but you must keep your pointer within that space the entire time you're making adjustments. If your pointer moves past the slider above or below, you'll start adjusting the wrong one. I find that this approach work best when making only adjusting a value by one or two notches. For bigger changes, it's too easily to accidentally move your cursor over a different slider.
+The other approach is to point just above the slider and use the thumbstick to move it left and right. It requires a bit less precision than the other approach, but you must be careful to keep your pointer within that space the entire time you're making adjustments. If your pointer moves past the slider above or below, you'll start adjusting an entirely different value. I find that this approach works best when only adjusting a value by one or two notches. For bigger changes, it's too easily to accidentally move your cursor over a different slider.
 
 RaceMenu will start on the "ALL" tab, showing every available slider, but there are tabs for various categories (BODY, FACE, etc.), so you don't have to do it all on a single page. Switch tabs by using the pointer and the <kbd>A</kbd> button.
 
