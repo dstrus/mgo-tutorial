@@ -23,12 +23,15 @@ So many sliders! Character creation with RaceMenu in MGO.
 
 There are a couple of ways to adjust the values of each slider. You can point directly at the marker with your motion controller, hold down the <kbd>A</kbd> button, and move your controller left and right to adjust each slider. You have to initially point pretty precisely, but once you begin holding down the <kbd>A</kbd> button, you can rest assured that you'll be adjusting that same slider until you release the button. That initial selection is easier if you can move closer to where the RaceMenu UI appears. (You aren't able to use the thumbsticks to move while the RaceMenu is active, so you'll have to move in your physical space.)
 
-<video controls>
-  <source src="/images/racemenu-sliders.mp4" type="video/mp4">
-Your browser does not support this video.
-</video>
+{{< video name="racemenu-sliders" >}}
+Method 1: Moving the value marker directly.
+{{< /video >}}
 
 The other approach is to point just above the slider and use the thumbstick to move it left and right. It requires a bit less precision than the other approach, but you must be careful to keep your pointer within that space the entire time you're making adjustments. If your pointer moves past the slider above or below, you'll start adjusting an entirely different value. I find that this approach works best when only adjusting a value by one or two notches. For bigger changes, it's too easily to accidentally move your cursor over a different slider.
+
+{{< video name="racemenu-sliders-02" >}}
+Method 2: Pointing above the slider and using the thumbstick.
+{{< /video >}}
 
 RaceMenu will start on the "ALL" tab, showing every available slider, but there are tabs for various categories (BODY, FACE, etc.), so you don't have to do it all on a single page. Switch tabs by using the pointer and the <kbd>A</kbd> button.
 
@@ -41,6 +44,20 @@ In many RPGs, your build is a Very Big Deal, and choosing poorly can make or bre
 With the mods in MGO, it's still hard to set yourself up for long-term failure by speccing your character poorly, but the races at least feel like they matter beyond a few tiny bits of dialogue. {{< nexus 26686 >}}Aetherius{{< /nexus >}} overhauls the various races' passive abilities and their starting levels in various skills. This reintroduces the concept of major and minor skills... kind of. In previous games, major and minor skills had a huge impact of how you leveled up your character. That feature remains absent from Skyrim, so you still don't need to be terrified of being a Bosmer when you should have been a Redguard. (In fact, in MGO, your overall level isn't based on your skills at all. It's based on gaining experience through discovering locations and completing quests. See the {{< nexus 17751 >}}Experience{{< /nexus >}} mod for details.) Aetherius also starts certain races with additional spells. Check out the {{< nexus 26686 >}}mod page{{< /nexus >}} for all the details.
 
 (Standing Stones don't come into play until you actually start the game, but MGO includes an overhaul for that system as well: {{< nexus 33411 >}}Mundus{{< /nexus >}}.)
+
+## Wrapping up
+
+When your character looks perfect (or perfectly abhorrent, as the case may be), you can finish by squeezing the <kbd>Grip</kbd> on one of your controllers, or you can point to {{< btn-inline >}}Done{{< /btn-inline >}} in the extreme lower-left of the RaceMenu UI and press <kbd>A</kbd> on your controller.
+
+{{< caption name="racemenu-done" type="webp" >}}
+Point to "Done" and press the <kbd>A</kbd> button.
+{{< /caption >}}
+
+Whichever method you choose, you'll be prompted to confirm that you're finished and ready to name your character. If you're running the game through Steam VR, you'll see Steam VR's onscreen keyboard. If you're using Open Composite Unleashed, you'll see the keyboard that's built into that mod. With Open Composite Unleashed, you'll still see the red laser pointers that you used to control RaceMenu, alongside the white laser pointers that you need to use with the onscreen keyboard.
+
+{{< video name="racemenu-name" >}}
+Finish and name your character.
+{{< /video >}}
 
 ## Changing your mind... and your face
 
