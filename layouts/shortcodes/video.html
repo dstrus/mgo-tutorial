@@ -1,4 +1,4 @@
-<div class="video">
+<div class="video {{ .Get "border" | default "" }}">
   <video controls>
     <source src="/mgo-tutorial/images/{{ .Get "name" }}.{{.Get "type" | default "mp4" }}" type="video/{{.Get "type" | default "mp4" }}">
     Your browser does not support this video.

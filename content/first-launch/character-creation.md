@@ -23,13 +23,13 @@ So many sliders! Character creation with RaceMenu in MGO.
 
 There are a couple of ways to adjust the values of each slider. You can point directly at the marker with your motion controller, hold down the <kbd>A</kbd> button, and move your controller left and right to adjust each slider. You have to initially point pretty precisely, but once you begin holding down the <kbd>A</kbd> button, you can rest assured that you'll be adjusting that same slider until you release the button. That initial selection is easier if you can move closer to where the RaceMenu UI appears. (You aren't able to use the thumbsticks to move while the RaceMenu is active, so you'll have to move in your physical space.)
 
-{{< video name="racemenu-sliders" >}}
+{{< video name="racemenu-sliders" border="border" >}}
 Method 1: Moving the value marker directly.
 {{< /video >}}
 
 The other approach is to point just above the slider and use the thumbstick to move it left and right. It requires a bit less precision than the other approach, but you must be careful to keep your pointer within that space the entire time you're making adjustments. If your pointer moves past the slider above or below, you'll start adjusting an entirely different value. I find that this approach works best when only adjusting a value by one or two notches. For bigger changes, it's too easily to accidentally move your cursor over a different slider.
 
-{{< video name="racemenu-sliders-02" >}}
+{{< video name="racemenu-sliders-02" border="border" >}}
 Method 2: Pointing above the slider and using the thumbstick.
 {{< /video >}}
 
@@ -55,7 +55,7 @@ Point to "Done" and press the <kbd>A</kbd> button.
 
 Whichever method you choose, you'll be prompted to confirm that you're finished and ready to name your character. If you're running the game through Steam VR, you'll see Steam VR's onscreen keyboard. If you're using Open Composite Unleashed, you'll see the keyboard that's built into that mod. With Open Composite Unleashed, you'll still see the red laser pointers that you used to control RaceMenu, alongside the white laser pointers that you need to use with the onscreen keyboard.
 
-{{< video name="racemenu-name" >}}
+{{< video name="racemenu-name" border="border" >}}
 Finish and name your character.
 {{< /video >}}
 

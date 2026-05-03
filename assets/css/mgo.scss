@@ -218,7 +218,13 @@ input.readonly {
 
 div.video {
   margin: 0 auto 2rem;
-  // max-width: 650px;
+  &.border {
+    border: 1px solid var(--mgo-gold);
+    background-color: #404040;
+    // .caption {
+    //   text-align: left;
+    // }
+  }
   video {
     width: 100%;
     height: auto;
