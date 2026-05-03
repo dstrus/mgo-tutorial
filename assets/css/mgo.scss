@@ -73,6 +73,7 @@ body {
     text-shadow: rgba(0,0,0,0.8) 1px 0 8px;
     line-height: 0.8em;
     overflow-wrap: normal;
+    hyphens: manual;
   }
 }
 
@@ -221,9 +222,6 @@ div.video {
   &.border {
     border: 1px solid var(--mgo-gold);
     background-color: #404040;
-    // .caption {
-    //   text-align: left;
-    // }
   }
   video {
     width: 100%;
