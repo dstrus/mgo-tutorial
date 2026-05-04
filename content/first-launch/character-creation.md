@@ -15,6 +15,10 @@ Not this time!
 
 {{< nexus 19080 >}}RaceMenu{{< /nexus >}}, included in MGO (along with {{< nexus 156898 >}}RacemenuVR{{< /nexus >}}), adds far more sliders for you to adjust until your character is just as beautiful/handsome/nauseating as you've always dreamed.
 
+{{< caption name="racemenu-monstrosity" type="webp" >}}
+Now we're talking!
+{{< /caption >}}
+
 Some RaceMenu features, like face sculpt mode, don't work in VR, and the VR version is a little bit harder to navigate. But there's still an incredible assortment of sliders you can tweak, and you can load presets created in the flat version (as long as they have no dependencies that aren't available in MGO).
 
 {{< caption name="racemenu-01" type="webp" >}}
@@ -36,6 +40,14 @@ Method 2: Pointing above the slider and using the thumbstick.
 RaceMenu will start on the "ALL" tab, showing every available slider, but there are tabs for various categories (BODY, FACE, etc.), so you don't have to do it all on a single page. Switch tabs by using the pointer and the <kbd>A</kbd> button.
 
 Some tabs still have an awful lot of sliders, so you'll need to scroll (which, again, requires some high-precision pointing) to see all of the options. Point precisely at the scroll marker (ignoring the fact that the sliders appear to extend far to the right of the scrollbar), hold down <kbd>A</kbd>, and use your motion controller to move the scroll marker's position.
+
+{{< aside type="btw" title="A note to the NSFW crowd..." >}}
+If you're playing the NSFW list, you may be disappointed to find your character fully clothed, in spite of how... _extensive_ the customization options are.
+
+Fear not! There's a slider near the bottom to toggle between a dressed and undressed state.
+
+<a href="/images/racemenu-undress@2x.webp"><img src="/images/racemenu-undress.webp" srcset="/mgo-tutorial/images/racemenu-undress@2x.webp 2x"></a>
+{{< /aside >}}
 
 ## Build options
 
