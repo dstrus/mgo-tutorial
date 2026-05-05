@@ -85,6 +85,15 @@ body {
   }
 }
 
+.home {
+  h1 {
+    margin: 2rem 0;
+    img {
+      max-height: 15rem;
+    }
+  }
+}
+
 h2 {
   line-height: 1em;
   .anchor {
