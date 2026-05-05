@@ -19,6 +19,8 @@
   --mgo-red: #ba2813;
   --mgo-blue: #2f81eb;
   --mgo-bg: #202020;
+  --mgo-logo-bg1: #2A2A22;
+  --mgo-logo-bg2: #282820
 }
 
 body {
@@ -65,6 +67,12 @@ body {
   }
 }
 
+.breadcrumbs li {
+  padding-bottom: 0;
+}
+.body-inner {
+  overflow-y: auto;
+}
 .cover {
   background-size: cover;
   background-position: center;

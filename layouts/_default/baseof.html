@@ -66,14 +66,16 @@
       </nav>
       <div id="R-main-overlay"></div>
       {{- $title := partial "title.gotmpl" (dict "page" .) }}
-      <div class="cover {{ $title }}">
-        <h1 id="{{ $title | plainify | anchorize }}">{{ $title }}</h1>
-      </div>
-      <main id="R-body-inner" class="highlightable{{ with or .Type "default" }} {{ . }}{{ end }}" tabindex="-1">
-        <div class="flex-block-wrapper">
-{{- block "body" . }}{{ end }}
+      <div class="body-inner">
+        <div class="cover {{ $title | plainify | anchorize }}">
+          <h1 id="{{ $title | plainify | anchorize }}">{{ $title }}</h1>
         </div>
-      </main>
+        <main id="R-body-inner" class="highlightable{{ with or .Type "default" }} {{ . }}{{ end }}" tabindex="-1">
+          <div class="flex-block-wrapper">
+  {{- block "body" . }}{{ end }}
+          </div>
+        </main>
+      </div>
 {{- partial "custom-comments.html" . }}
     </div>
 {{- block "menu" . }}{{ end }}
