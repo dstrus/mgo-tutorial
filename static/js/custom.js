@@ -19,7 +19,7 @@ const bannerImages = [
 const backgroundImages = [
   '/mgo-tutorial/images/bg-amulet-of-mara.webp',
   '/mgo-tutorial/images/bg-clavicus-vile.webp',
-  '/mgo-tutorial/images/bg-golden-claw.webp',
+  '/mgo-tutorial/images/bg-dragon-claw.webp',
   '/mgo-tutorial/images/bg-miraak.webp',
   '/mgo-tutorial/images/bg-molag-bal.webp',
   '/mgo-tutorial/images/bg-krosis.webp',
