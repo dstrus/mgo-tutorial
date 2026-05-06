@@ -20,7 +20,13 @@
   --mgo-blue: #2f81eb;
   --mgo-bg: #202020;
   --mgo-logo-bg1: #2A2A22;
-  --mgo-logo-bg2: #282820
+  --mgo-logo-bg2: #282820;
+  --mgo-alert-bg1: rgba(115, 25, 13, 0.6);
+  --mgo-alert-bg2: rgba(105, 77, 23, 0.6);
+  --mgo-alert-bg3: rgba(105, 77, 23, 0.6);
+  --mgo-gradient1: rgba(194, 42, 21, 0.45);
+  --mgo-gradient2: rgba(185, 137, 41, 0.45);
+  --mgo-gradient3: rgba(185, 137, 41, 0.45);
 }
 
 body {
@@ -223,6 +229,9 @@ input.readonly {
     --bs2: 0 0 0 4px var(--mgo-red);
     --bs3: 0 0 2px 7px rgba(0, 0, 0, .05);
     box-shadow: var(--bs1), var(--bs2), var(--bs3);
+    background: linear-gradient(24deg,var(--mgo-gradient1) 0%,
+              var(--mgo-gradient2) 100%,
+              var(--mgo-gradient3) 38%);
   }
 }
 
@@ -346,7 +355,7 @@ div.img {
   padding: 2px;
 }
 .aside.aside-alert {
-  background: linear-gradient(24deg,rgba(194, 42, 21, 0.45) 0%, rgba(185, 137, 41, 0.45) 100%, rgba(185, 137, 41, 0.45) 38%);
+  background: linear-gradient(24deg, var(--mgo-alert-bg1) 0%, var(--mgo-alert-bg2) 100%, var(--mgo-alert-bg3) 38%);
   h4 {
     background: rgba(54, 23, 14, 0.8);
   }
@@ -368,26 +377,6 @@ div.img {
     background-position: center center;
     background-repeat: no-repeat;
   }
-}
-.aside.aside-info {
-  background: #2A2A2A;
-  background-image: linear-gradient(24deg,rgba(42, 42, 42, 1) 0%, rgba(79, 39, 28, 1) 48%, rgba(79, 62, 29, 1) 100%);
-  h4 {
-    background: rgba(54, 23, 14, 0.5);
-  }
-  .body {
-    background-image: url("/mgo-tutorial/images/nightingales-bg.png");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-  }
-}
-.aside.aside-danger {
-  background-color: #cc2936;
-  background-image: url("/mgo-tutorial/images/sayagata.png"), linear-gradient(24deg, #c92936 0%, #ebbab9 100%);
-}
-.aside.aside-danger h4 {
-  background: rgba(201,41,54,0.4);
 }
 
 @media
