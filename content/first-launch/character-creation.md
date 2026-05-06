@@ -19,7 +19,7 @@ Not this time!
 Now we're talking!
 {{< /caption >}}
 
-Some RaceMenu features, like face sculpt mode, don't work in VR, and the VR version is a little bit harder to navigate. But there's still an incredible assortment of sliders you can tweak, and you can load presets created in the flat version (as long as they have no dependencies that aren't available in MGO).
+Some RaceMenu features (like the _Camera_ and _Sculpt_ tabs in the upper-right) don't work in VR, and the VR version is a little bit harder to navigate. But there's still an incredible assortment of sliders you can tweak, and you can load presets created in the flat version (as long as they have no dependencies that aren't available in MGO).
 
 {{< caption name="racemenu-01" type="webp" >}}
 So many sliders! Character creation with RaceMenu in MGO.
@@ -44,7 +44,7 @@ Some tabs still have an awful lot of sliders, so you'll need to scroll (which, a
 {{< aside type="btw" title="A note to the NSFW crowd..." >}}
 If you're playing the NSFW list, you may be disappointed to find your character fully clothed, in spite of how... _extensive_ the customization options are.
 
-Fear not! There's a slider near the bottom to toggle between a dressed and undressed state.
+Fear not! There's a slider near the bottom of the BODY tab (and the ALL tab) to toggle between a dressed and undressed state.
 
 <a href="/images/racemenu-undress@2x.webp"><img src="/images/racemenu-undress.webp" srcset="/mgo-tutorial/images/racemenu-undress@2x.webp 2x"></a>
 {{< /aside >}}
