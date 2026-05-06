@@ -24,7 +24,8 @@ const backgroundImages = [
   '/mgo-tutorial/images/bg-molag-bal.webp',
   '/mgo-tutorial/images/bg-krosis.webp',
   '/mgo-tutorial/images/bg-daedric-helmet.webp',
-  '/mgo-tutorial/images/bg-dwarven-helmet.webp'
+  '/mgo-tutorial/images/bg-dwarven-helmet.webp',
+  '/mgo-tutorial/images/bg-karstaags-skull.webp'
 ];
 window.onload = function() {
   const cover = document.querySelector('.cover');
