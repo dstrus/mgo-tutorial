@@ -66,9 +66,9 @@
       </nav>
       <div id="R-main-overlay"></div>
       {{- $title := partial "title.gotmpl" (dict "page" .) }}
-      <div class="body-inner">
+      <div class="body-inner {{ $title | plainify | anchorize }}">
         {{- if not .IsHome }}
-        <div class="cover {{ $title | plainify | anchorize }}">
+        <div class="cover">
           <h1 id="{{ $title | plainify | anchorize }}">{{ $title }}</h1>
         </div>
         {{- end }}

@@ -91,6 +91,19 @@ body {
   }
 }
 
+.chapter {
+  h2 {
+    a {
+      display: block;
+      border-bottom: 2px solid;
+
+      & + .anchor {
+        display: none;
+      }
+    }
+  }
+}
+
 .home {
   h1 {
     margin: 2rem 0;
