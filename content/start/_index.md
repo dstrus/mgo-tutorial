@@ -8,7 +8,7 @@ Before jumping into the action, there are a few things that you _must_ do, and a
 
 ## [Requirements](requirements)
 
-Before downloading and installing the list, make sure your system can handle it, and that you've installed all of the prerequisites
+Before downloading and installing the list, make sure your system can handle it, and that you've installed all of the prerequisites.
 
 ## [Installation](installation)
 

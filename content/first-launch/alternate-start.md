@@ -1,5 +1,5 @@
 +++
-title = 'Start a New Life'
+title = 'Alternate Start'
 weight = 30
 +++
 
@@ -7,9 +7,9 @@ Skyrim's opening cart ride is iconic. It's neat! Once. Maybe twice. But if you h
 
 If you've never played Skyrim before and would like to experience the opening sequence as-is (more or less&mdash;this is modded, after all), it's still there in MGO. But now it's just one option among many.
 
-New games start in a cell in the Abandoned Prison (which is a location in the actual game, not a separate worldspace). Once you've created your character, it's time to choose where&mdash;and in what condition&mdash;you'd like to start playing.
-
 ## Choose a new life
+
+With the mod {{< nexus 272 >}}Alternate Start - Live Another Life{{< /nexus >}} and its various extensions, new games start in a cell in the Abandoned Prison (which is a location in the actual game, not a separate worldspace). Once you've created your character, it's time to choose where&mdash;and in what condition&mdash;you'd like to start playing.
 
 Straight in front of you, to the right of the table, is a statue of Mara. Activate the statue as though you're speaking to it.
 
@@ -17,7 +17,7 @@ Straight in front of you, to the right of the table, is a statue of Mara. Activa
 Activate the statue of Mara to the right of the table to choose a new life.
 {{< /caption >}}
 
-You'll be presented with twenty options. (They're listed at the bottom of this page.) Some start you with a guild affiliation, or with one of the player homes. Some let you choose a side in the Civil War right from the start. You may or may not start with weapons, armor, powers, or extra spells. Some start you with a specific goal, while others drop you in a location with no particular objective. If you're brand new to Skyrim and you find the choices overwhelming, you can always give the vanilla start a shot.
+You'll be presented with a bunch of options, some of which are specific to the race you've chosen. (The options that are available to all races are listed at the bottom of this page.) Some start you with a guild affiliation, or with one of the player homes. Some let you choose a side in the Civil War right from the start. You may or may not start with weapons, armor, powers, or extra spells. Some start you with a specific goal, while others drop you in a location with no particular objective. If you're brand new to Skyrim and you find the choices overwhelming, you can always give the vanilla start a shot.
 
 If you plan to play through the main quest, but you're tired of the early quests, "I am Akatosh's chosen, the Dragonborn!" will start you in High Hrothgar, having already been recognized as the Dragonborn by the Greybeards.
 
@@ -25,7 +25,9 @@ If you choose a different, non-vanilla start, but you'd still like to do the mai
 
 Once you've made your selection, you just need to sleep in the nearby bed to trigger the _actual_ start of the game (unless you chose "I want to escape this cell," in which case you just need to escape from the cell).
 
-As promised, here are all of the choices:
+
+
+As promised, here are all of the choices that are available to every race:
 
 * I arrived on board a ship.
 * I own property in one of the holds.
@@ -43,7 +45,6 @@ As promised, here are all of the choices:
 * I am a warlock's thrall.
 * I was attacked and left for dead.
 * I am Akatosh's chosen, the Dragonborn!
-* I am Erik the Slayer's childhood friend.
 * I am the Guild Master for the Explorers Society.
 * I am in Cyrodiil[^1].
 * Surprise me.

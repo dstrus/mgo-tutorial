@@ -20,6 +20,6 @@ Speaking of leaving behind the vanilla experience, MGO includes an alternate sta
 
 [^1]: When we refer to Skyrim as Bethesda originally shipped it, free of mods, we call it "vanilla".[^2] (Never mind that vanilla is one of the best and most complex flavors known to humanity.)
 
-[^2]: In American English, it is standard to place commas and periods _inside_ closing quotation marks, regardless of whether the comma or period is part of the quotation. This is a silly rule, and I reject it. But in the unlikely event that my freshman English teacher[^3] sees this, I want him to know that _I know the rule_; but _the rule is bad_.
+[^2]: In American English, it is standard to place commas and periods _inside_ closing quotation marks, regardless of whether the comma or period is part of the quotation. This is a silly rule, and I reject it. But in the unlikely event that my freshman English teacher[^3] sees this, I want to assure him that I know the rule. The rule is just _bad_.
 
 [^3]: Yes, he's still alive. I'm not _that_ old! (Just don't ask about my 11th and 12th grade English teachers.)

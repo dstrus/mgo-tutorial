@@ -11,7 +11,11 @@ Community Shaders (CS) keeps its own cache of pre-compiled shaders on disk to sp
 To run the game from Mod Organizer 2, click the <span class="btn-inline"><i class="fa fa-play"></i> Run</span> button near the upper-right, with <span class="btn-inline">Launch MGO - Do Not Unlock</span> selected in the nearby dropdown.
 {{< /aside >}}
 
-When you launch MGO for the first time after installation (or after certain actions, like clearing your {{< file folder-open >}}Overwrite{{< /file >}} folder or otherwise invalidating the cache), Community Shaders will begin compiling. If you can see the Skyrim VR window on your desktop, you should see a progress bar. (If you're in VR mode and you're using [Open Composite](/appendices/open-composite/), you'll just see a black screen.)
+When you launch MGO for the first time after installation (or after certain actions, like clearing your {{< file folder-open >}}Overwrite{{< /file >}} folder or otherwise invalidating the cache), Community Shaders will begin compiling. If you can see the Skyrim VR window on your desktop, you should see a progress bar.
+
+{{< aside type="btw" title="Seeing a black screen?" >}}
+If you're in VR mode and you're using [Open Composite](/appendices/open-composite/), you'll see a black screen instead of the "Compiling Shaders" progress. If you're using Virtual Desktop, hold the menu button on the left controller to switch to desktop view. You may then need to close Virtual Desktop's pop-over menu that opens to the right. To switch back to VR, press the menu button again and choose <span class="btn-inline">Switch to VR</span>.
+{{< /aside >}}
 
 {{< caption name="cs-compiling" type="webp" >}}
 While the game is compiling shaders, you can see the progress in the Skyrim VR window on the desktop.
@@ -22,7 +26,7 @@ Compiling shaders can take anywhere from 5 minutes on a high-end PC to almost 30
 {{< aside type="btw" title="Keep Moving" >}}
 You may need to keep your headset awake and active while CS is compiling shaders. Personally, I switch to desktop view in my headset and keep myself busy with other tasks* using my physical mouse and keyboard. That seems to be good enough.
 
-\*That would be a great time to browse this documentation!
+\*That sounds like a perfect time to browse this documentation!
 {{< /aside >}}
 
 During compilation, or at any time when Skyrim VR is running, you can press <kbd>END</kbd> on the keyboard (physical or virtual) to open the CS settings panel. As with the progress bar, this will only appear in the desktop window if you're using Open Composite.
