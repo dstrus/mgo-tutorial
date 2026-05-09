@@ -132,6 +132,18 @@ li {
   font-size: 1rem;
 }
 
+.chapter-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  .gif {
+    min-width: 260px;
+    min-height: 208px;
+    
+  }
+}
+
 .flex {
   display: flex;
 }

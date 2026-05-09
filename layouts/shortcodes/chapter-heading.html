@@ -1,0 +1,28 @@
+<style>
+  .chapter-heading .gif.{{ .Get "img" | default "" }} {
+    background-image: url(/mgo-tutorial/images/{{ .Get "img" | default "" }}.webp);
+    background-size: 260px 208px;
+  }
+  .chapter-heading:hover .gif.{{ .Get "img" | default "" }} {
+    background-image: url(/mgo-tutorial/images/anim-{{ .Get "img" | default "" }}.gif);
+  }
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+    .chapter-heading .gif.{{ .Get "img" | default "" }} {
+      background-image: url(/mgo-tutorial/images/{{ .Get "img" | default "" }}@2x.webp);
+    }
+  }
+</style>
+<div class="chapter-heading">
+  <div class="gif {{ .Get "img" | default "" }}">
+    &nbsp;
+  </div>
+  <div>
+    {{ .Inner | .Page.RenderString }}
+  </div>
+</div>
