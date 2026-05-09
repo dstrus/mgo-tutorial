@@ -27,7 +27,7 @@ Vanilla combat is... functional. But this is VR! Combat should be _amazing_! Wit
 {{< chapter-heading img="marksmanship" >}}
 ## [Marksmanship](marksmanship)
 
-Archery in vanilla Skyrim VR wasn't terrible, but modders still had plenty of ideas for deepening the immersion (to say nothing of crossbows[^2]).
+Archery in vanilla Skyrim VR wasn't terrible, but modders still had plenty of ideas for deepening the immersion&mdash;to say nothing of crossbows. (Oops, I've said something of crossbows, haven't I?)
 {{< /chapter-heading >}}
 
 {{< chapter-heading img="magic-atronach" >}}
@@ -37,4 +37,3 @@ Vanilla magic was arguably not as disappointing as melee combat, but it left som
 {{< /chapter-heading >}}
 
 [^1]: MGO does include several pre-defined [controller mappings](/controls), and you certainly should learn whichever one you choose.
-[^2]: Oops, I've said something of crossbows, haven't I?
