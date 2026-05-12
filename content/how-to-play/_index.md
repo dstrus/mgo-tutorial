@@ -12,7 +12,7 @@ You might think that learning how to play is simply a matter of learning the con
 Skyrim VR's vanilla movement options are still present, but MGO includes mods to enhance the experience of just getting around.
 {{< /chapter-heading >}}
 
-{{< chapter-heading img="interaction-book" >}}
+{{< chapter-heading img="interaction-pullchain" >}}
 ## [Interaction](interaction)
 
 Why point at something and press <kbd>A</kbd> when you can bop it, twist it, pull it?
