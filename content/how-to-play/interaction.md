@@ -17,28 +17,28 @@ The mods included in Mad God's Overhaul enhance Skyrim's interactivity to a fran
 
 In 2020, Valve released Half-Life: Alyx and introduced the best system for interacting with objects that anyone had seen in a game that wasn't focused entirely on the novelty of interacting with objects. They also came up with a fantastic system for picking up items that are just out of reach: The Gravity Gloves (the inventor of which desperately wants you to call them R.U.S.S.E.L.L.S). This made the "point and press <kbd>A</kbd>" mechanics in Skyrim VR seem terribly dated. A few months later, FlyingParticle released {{< nexus 43930 >}}HIGGS{{< /nexus >}}, and all was right in Tamriel.
 
-With HIGGS, your hands are no longer merely decorations. Uou can pick objects up, throw them, juggle them&mdash;whatever you like. To add the item in your hand to your inventory, reach above your shoulder until you get a haptic buzz, and then release <kbd>Grip</kbd>. Not sure what exactly an item is, or what its stats are? Just look at the back of your hand while you're holding the item.
+With HIGGS, your hands are no longer merely decorations. Uou can pick objects up, throw them, juggle them&mdash;whatever you like. To add the item in your hand to your inventory, reach above your shoulder until you get a haptic buzz, and then release <kbd>Grip</kbd>. Not sure what exactly an item is, or what its stats are? Just look at the back of your hand while you're holding the item. You can even put consumables directly into your mouth without adding them to your inventory first. That even works on books, including spell tomes.
 
-{{< video name="higgs-frost-mirriam" type="mp4" >}}
-Look at the back of your hand while holding an item to see its name, weight, effects, etc.
+{{< video name="higgs-reading" type="mp4" >}}
+Who doesn't like to devour a good book now and again?
 {{< /video >}}
 
 And if an object is a little bit out of reach, reach towards the item, squeeze the <kbd>Grip</kbd>, pull back your hand, and then release and press <kbd>Grip</kbd> to catch the item out of the air.
 
-{{< video name="higgs-book" type="mp4" >}}
-Gravity Gloves in Skyrim!
+{{< video name="higgs-salt-pile" type="mp4" >}}
+Grab a salt pile off the shelf with the gravity gloves, check out its stats on the back of your hand, and drop it over your shoulder to add it to your inventory.
 {{< /video >}}
 
 You can even loot enemies' armor right off of them using the gravity gloves. As with any other use of HIGGS, just drop each item above/behind your shoulder to add it to your inventory.
 
 {{< video name="higgs-loot" type="mp4" >}}
-You can't even let bandits die with dignity, can you?
+There's no dignity for bandits, even in death.
 {{< /video >}}
 
 {{< nexus 161676 >}}Interactive Activators VR{{< /nexus >}} is one of the newer mods in the list, and Shizof's first preview video stunned all of the real VR sickos. It replaces buttons, levers (including the ones built into Dwemer doors), pullchains (!), rotating pillars (!!), puzzle door discs (!!!)[^1], etc. with versions that you can interact with directly using your hands, weapons, or any other physics object. You can throw a cheese wheel at a lever to activate it if you want.
 
 {{< video name="pullchain" type="mp4" >}}
-There's something particularly satisfying about the pullchain physics.
+Pullchains are now my favorite thing in Skyrim.
 {{< /video >}}
 
 Because it works in conjunction with HIGGS, you can even use the gravity gloves feature to interact with these objects, which comes in pretty handy for some of the hard-to-reach chains and levers.
