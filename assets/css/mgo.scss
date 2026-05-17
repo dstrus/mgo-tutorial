@@ -15,18 +15,21 @@
   --INTERNAL-MAIN-TITLES-H2-font: Sovngarde, 'Roboto Flex';
   --INTERNAL-MAIN-TITLES-H3-font: Sovngarde, 'Roboto Flex';
   --VARIABLE-LINK-color: #66adff;
-  --mgo-gold: #d7b04b;
-  --mgo-red: #ba2813;
+  --mgo-gold: #F8D07B;
+  --mgo-red: #A23860;
   --mgo-blue: #2f81eb;
   --mgo-bg: #202020;
   --mgo-logo-bg1: #2A2A22;
   --mgo-logo-bg2: #282820;
-  --mgo-alert-bg1: rgba(115, 25, 13, 0.6);
-  --mgo-alert-bg2: rgba(105, 77, 23, 0.6);
-  --mgo-alert-bg3: rgba(105, 77, 23, 0.6);
-  --mgo-gradient1: rgba(194, 42, 21, 0.45);
-  --mgo-gradient2: rgba(185, 137, 41, 0.45);
-  --mgo-gradient3: rgba(185, 137, 41, 0.45);
+  --mgo-alert-bg1: #4E1A26;
+  --mgo-alert-bg2: #F1CD8466;
+  --mgo-alert-bg3: #642F69;
+  --mgo-gradient1: #642F69;
+  --mgo-gradient2: #4E1A26;
+  --mgo-gradient3: #F1CD84;
+  // --mgo-gradient1: rgba(194, 42, 21, 0.45);
+  // --mgo-gradient2: rgba(185, 137, 41, 0.45);
+  // --mgo-gradient3: rgba(185, 137, 41, 0.45);
 }
 
 body {
@@ -51,6 +54,14 @@ body {
   svg {
     height: 20px;
     padding-right: 0.5em;
+  }
+}
+
+#R-header-wrapper {
+  padding-top: 1rem;
+
+  img {
+    max-width: calc(100% - 2rem);
   }
 }
 
@@ -107,9 +118,6 @@ body {
 .home {
   h1 {
     margin: 2rem 0;
-    img {
-      max-height: 15rem;
-    }
   }
 }
 
@@ -183,32 +191,32 @@ input.readonly {
     color: #ffd86b;
   }
   &.blue {
-    background-color: #0460aa;
-    color: white;
+    background-color: #f1cd84;
+    color: black;
   }
   &.blue1 {
-    background-color: #3c7be9;
-    color: white;
+    background-color: #e2bf7b;
+    color: black;
   }
   &.blue2 {
-    background-color: #508aeb;
+    background-color: #d1af71;
     color: black;
   }
   &.blue3 {
-    background-color: #70a3ee;
+    background-color: #9d8151;
     color: black;
   }
   &.blue4 {
-    background-color: #85b2f0;
+    background-color: #af905d;
     color: black;
   }
   &.blue5 {
-    background-color: #99bff1;
+    background-color: #7c613d;
     color: black;
   }
   &.blue6 {
-    background-color: #aecdf4;
-    color: black;
+    background-color: #6b5232;
+    color: white;
   }
   &.blue7 {
     background-color: #c0dbf5;
@@ -257,6 +265,7 @@ input.readonly {
     --bs1: -2px -2px 0 2px var(--mgo-gold);
     --bs2: 0 0 0 4px var(--mgo-red);
     --bs3: 0 0 2px 7px rgba(0, 0, 0, .05);
+    text-shadow: 2px 2px 2px #000000;
     box-shadow: var(--bs1), var(--bs2), var(--bs3);
     background: linear-gradient(24deg,var(--mgo-gradient1) 0%,
               var(--mgo-gradient2) 100%,

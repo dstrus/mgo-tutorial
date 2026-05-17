@@ -114,7 +114,7 @@ These controller binding options will not work with OC Unleashed enabled because
 
 There are _Performance_ and _Quality_ presets for **Community Shaders** and **Grass Density**. Switching to the _Quality_ presets will have a fairly significant impact to your outdoor framerate. Whether that's worth it is up to you, but you'll need a pretty serious PC to maintain a comfortable framerate if you set both to _Quality_.
 
-<div class="separator subsub blue7">
+<div class="separator subsub blue5">
   <i class="fa fa-folder"></i> ▸▸▸ VR Performance Kit - Not Compatible with OC
 </div>
 <div class="mod subsub">
@@ -171,7 +171,7 @@ Be sure to check out the {{< ext "https://www.nexusmods.com/skyrimspecialedition
 {{< nexus 16514 >}}Dragonborn Speaks Naturally{{< /nexus >}} adds speech recognition to the game. In dialogue/ceonversation menus, you can speak your dialogue from the available options, rather than selecting it with your controller. (This is unrelated to the AI features described below.)
 
 ---
-<div class="separator subsub blue7">
+<div class="separator subsub blue5">
   <i class="fa fa-folder"></i> ▸▸▸ Audio - New Music
 </div>
 <div class="mod subsub">

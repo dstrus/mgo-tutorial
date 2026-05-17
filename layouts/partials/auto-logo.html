@@ -37,16 +37,7 @@
 
 {{- /* Render logo container with all variants */}}
 {{- if or $logoGroups $title }}
-        <a id="R-logo" class="R-default direction-{{ $direction }}{{ if $manualWrap }} manual-wrap{{ end }}" href="{{ partial "permalink.gotmpl" (dict "to" site.Home) }}">
-  {{- range $logoSrc, $variants := $logoGroups }}
-    {{- $variantList := delimit $variants " " }}
-          <span class="logo-image default-animation" data-r-logo-variant="{{ $variantList }}">
-{{ partial "shortcodes/image.html" (dict "page" site.Home "url" $logoSrc "attributes" $attributes) }}
-          </span>
-  {{- end }}
-          <span class="logo-title default-animation">
-            <span class="line1">Mad God's Overhaul</span>
-            <span class="line2">for SKYRIM VR</span>
-          </span>
+        <a href="{{ partial "permalink.gotmpl" (dict "to" site.Home) }}">
+          <img src="/images/mgo-300.webp" srcset="/mgo-tutorial/images/mgo-300@2x.webp 2x" alt="Mad God's Overhaul for Skyrim VR">
         </a>
 {{- end }}
