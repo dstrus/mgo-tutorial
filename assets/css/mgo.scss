@@ -15,7 +15,9 @@
   --INTERNAL-MAIN-TITLES-H2-font: Sovngarde, 'Roboto Flex';
   --INTERNAL-MAIN-TITLES-H3-font: Sovngarde, 'Roboto Flex';
   --VARIABLE-LINK-color: #66adff;
+  --mgo-gold-dark: #c98436;
   --mgo-gold: #F8D07B;
+  --mgo-gold-trans: #F8D07B33;
   --mgo-red: #A23860;
   --mgo-blue: #2f81eb;
   --mgo-bg: #202020;
@@ -158,7 +160,7 @@ li {
 
 .file {
   display: inline-block;
-  background-color: #d7b04b33;
+  background-color: var(--mgo-gold-trans);
   padding: 0 6px;
   border-radius: 10px;
   font-family: var(--INTERNAL-CODE-font);
@@ -294,7 +296,7 @@ div.video {
   .caption {
     align-items: center;
     justify-content: center;
-    background: #d7b04b;
+    background: radial-gradient(circle, var(--mgo-gold) 60%, var(--mgo-gold-dark) 100%);
     color: black;
     padding: 1rem;
     box-shadow: 0px 5px 20px #000;
@@ -335,7 +337,7 @@ div.img {
   .caption {
     align-items: center;
     justify-content: center;
-    background: #d7b04b;
+    background: radial-gradient(circle, var(--mgo-gold) 60%, var(--mgo-gold-dark) 100%);
     color: black;
     padding: 1rem;
     box-shadow: 0px 5px 20px #000;
