@@ -16,6 +16,7 @@ It took some time, but modders have overhauled Skyrim VR's melee combat to the p
 * {{< nexus 31374 >}}Weapon Throw VR{{< /nexus >}}[^1]
 * {{< nexus 26447 >}}Locational Damage SKSE VR{{< /nexus >}}
 * {{< nexus 28456 >}}Dual Wield Block VR{{< /nexus >}}
+* {{< nexus 44442 >}}Crouch To Dodge VR{{< /nexus >}}
 * {{< nexus 34549 >}}Blade and Blunt{{< /nexus >}}/{{< nexus 120494 >}}Blade and Blunt VR{{< /nexus >}}
 
 Here are some of the changes from vanilla to MGO:

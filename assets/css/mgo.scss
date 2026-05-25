@@ -230,7 +230,8 @@ input.readonly {
 
 #R-body .svg {
   &.nexus,
-  &.github {
+  &.github,
+  &.steam {
     display: inline-block;
     font-weight: bold;
     padding: 0 6px;
@@ -250,6 +251,13 @@ input.readonly {
   }
   &.github {
     background-color: #66666633;
+  }
+  &.steam {
+    background-color: #4c5967;
+    text-shadow: none;
+    a {
+      color: #1b2838;
+    }
   }
 }
 
