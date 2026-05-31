@@ -181,6 +181,7 @@ Be sure to check out the {{< ext "https://www.nexusmods.com/skyrimspecialedition
 {{< nexus 16514 >}}Dragonborn Speaks Naturally{{< /nexus >}} adds speech recognition to the game. In dialogue/ceonversation menus, you can speak your dialogue from the available options, rather than selecting it with your controller. (This is unrelated to the AI features described below.)
 
 ---
+## Convenience
 <div class="separator subsub blue5">
   <i class="fa fa-folder"></i> ▸▸▸ Convenience
 </div>
