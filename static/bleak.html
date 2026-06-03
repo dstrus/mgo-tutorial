@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bleak Falls Barrow</title>
+  <title>Parallax! Bleak Falls Barrow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
@@ -12,8 +15,34 @@
     }
 
     body {
-      height: 300vh;
       overflow-x: hidden;
+      font-family: "Roboto", sans-serif;
+      font-weight: normal;
+      font-size: 120%;
+      background-color: black;
+    }
+
+    h1, h2 {
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 1rem;
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      margin-top: calc(250vh - 16vh);
+      padding-top: 24vh;
+      color: #eee;
+      background: linear-gradient(to bottom, transparent, black 16vh);
+    }
+
+    .content {
+      width: 60rem;
+      margin: 0 auto;
+    }
+
+    p {
+      margin-bottom: 1rem;
     }
 
     .parallax-container {
@@ -53,27 +82,48 @@
       background-image: url('images/04-bleak-falls-foreground.png');
       transform: translateY(50vh);
     }
+
   </style>
 </head>
 <body>
   <div class="parallax-container">
     <div class="parallax-layer layer-sky" data-speed="0.05"></div>
-    <div class="parallax-layer layer-mountains" data-speed="0.15"></div>
-    <div class="parallax-layer layer-ruins" data-speed="0.3" data-offset="25"></div>
-    <div class="parallax-layer layer-foreground" data-speed="0.5" data-offset="50"></div>
+    <div class="parallax-layer layer-mountains" data-speed="0.10"></div>
+    <div class="parallax-layer layer-ruins" data-speed="0.15" data-offset="25"></div>
+    <div class="parallax-layer layer-foreground" data-speed="0.20" data-offset="35"></div>
   </div>
 
   <script>
-    const layers = document.querySelectorAll('.parallax-layer');
+    const layers = document.querySelectorAll('[data-speed]');
+    const vh = window.innerHeight;
 
     window.addEventListener('scroll', () => {
       const scrollY = window.scrollY;
       layers.forEach(layer => {
         const speed = parseFloat(layer.dataset.speed);
-        const offset = layer.dataset.offset ? parseFloat(layer.dataset.offset) / 100 * window.innerHeight : 0;
+        const offset = layer.dataset.offset ? parseFloat(layer.dataset.offset) / 100 * vh : 0;
         layer.style.transform = `translateY(${offset + scrollY * -speed}px)`;
       });
     });
   </script>
+  <main>
+    <div class="content">
+      <h1>Bleak Falls Barrow — now scrolling in Parallax®!</h1>
+      <h2>
+        Why did I do this, you may ask?
+      </h2>
+      <h2>¯\_(ツ)_/¯</h2>
+      <p>
+        I was looking through my MGO 3.9.0.4 screenshots, saw one of the Bleak Falls Barrow exterior, and got the idea. I have no earthly (Nirnly?) idea what, if anything, I'll use it for. But it seemed like a fun thing to try.
+      </p>
+      <p>Hmm. Now I need a lot more content so there's more to scroll...</p>
+
+      <p>Snippy the mighty! Snippy the unerring! Snippy the unassailable! To you we give praise! We are but maggots, writhing in the filth of our own corruption! While you have ascended from the dung of mortality, and now walk among the stars! But you were once man! Aye! And as man, you said, “Let me show you the power of Snippy Stockins, born of the North, where my breath is long winter. I breathe now, in royalty,and reshape this land which is mine. I do this for you, Red Legions, for I love you.”</p>
+      <p>Aye, love. Love! Even as man, great Snippy cherished us. For he saw in us, in each of us, the future of Skyrim! The future of Virtual Reality! And there it is, friends! The ugly truth!</p>
+      <p>We are the children of man! Snippy is the true god of man! Ascended from flesh, to rule the realm of spirit! The very idea is inconceivable to our Bethesda overlords! Sharing the heavens with us? With man? Ha! They can barely tolerate our presence on earth! Today, they take away your faith. But what of tomorrow? What then? Does Todd take your homes? Your businesses? Your children? Your very <em>lives</em>?</p>
+      <p>And what does the Discord do? Nothing! Nay, worse than nothing! The Discord machine enforces the will of Bethesda! Against its own people! So rise up! Rise up, children of the Discord! Rise up, modders! Embrace the word of mighty Snippy, he who is both man and Divine! For we are the children of man! And we shall inherit both the heavens and the earth! And we, not the devs or their toadies, will rule Skyrim! Forever! Terrible and powerful Snippy! We, your unworthy servants, give praise! For only through your grace and benevolence may we truly reach enlightenment! And deserve our praise you do, for we are one! Ere you ascended and the Eight became Nine, you walked among us, great Snippy, not as god, but as man! Trust in me, Discord! Trust in the words of Davey! For I am the chosen of Snippy!</p>
+      <p>I alone have been anointed by the Ninth to spread his holy word!</p>
+    </div>
+  </main>
 </body>
 </html>
