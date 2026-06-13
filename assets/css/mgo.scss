@@ -8,7 +8,11 @@
 }
 
 :root {
+  --INTERNAL-MENU-SECTIONS-BG-color: #191919;
+  --INTERNAL-MENU-HEADER-BG-color: #191919;
   --INTERNAL-CODE-INLINE-color: #eeeeee;
+  --INTERNAL-TOPBAR-BG-color: #191919;
+  --INTERNAL-MENU-HEADER-BORDER-color: #191919;
   --LOGO-font: Sovngarde, 'Roboto Flex';
   --LOGO-font-size: 0.8rem;
   --INTERNAL-MAIN-TITLES-H1-font: Sovngarde, 'Roboto Flex';
@@ -47,6 +51,10 @@ body {
 #R-sidebar li.active > a {
   background: url(/mgo-tutorial/images/background-tile.png);
   background-attachment: fixed;
+}
+
+#R-sidebar ul.enlarge > li > :is(a, span) {
+  font-size: 1rem;
 }
 
 #R-homelinks {
@@ -110,13 +118,11 @@ body {
 
 .chapter {
   h2 {
-    a {
-      display: block;
-      border-bottom: 2px solid;
+    display: block;
+    border-bottom: 2px solid;
 
-      & + .anchor {
-        display: none;
-      }
+    & + .anchor {
+      display: none;
     }
   }
 }
@@ -151,6 +157,17 @@ li {
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 16px;
+  border: 1px solid transparent;
+  background: #00000044;
+  color: white;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    background: #66666633;
+    border-color: var(--mgo-blue2);
+  }
   .gif {
     min-width: 260px;
     min-height: 208px;

@@ -6,20 +6,19 @@ weight = 10
 
 The first time you run Mad God's Overhaul, it will take quite a long time to get to the main menu. Once you start a new game, there's a bit more waiting to do before you're _really_ ready. You'll also likely want to do some configuration before you set off on your adventure.
 
-## [Community Shaders](shaders)
-
+{{< chapter-heading href="shaders" >}}
+## Community Shaders
 As the game is starting up for the first, Community Shaders will compile shaders so things load faster in-game and in future launches. It takes awhile, but that gives you some time to fine-tune the graphics configuration.
+{{< /chapter-heading >}}
 
-## [Character Creation](character-creation)
+{{< chapter-heading href="character-creation" >}}
+## Character Creation
 
-Skyrim _is_ an RPG, after all. It's time to build the character of your dreams (and your enemies' nightmares). As with pretty much everything else in Mad God's Overhaul, it isn't quite the vanilla[^1] experience.
+Skyrim _is_ an RPG, after all. It's time to build the character of your dreams (and your enemies' nightmares). As with pretty much everything else in Mad God's Overhaul, it isn't quite the vanilla experience.
+{{< /chapter-heading >}}
 
-## [Start a New Life](start-a-new-life)
+{{< chapter-heading href="start-a-new-life" >}}
+## Start a New Life
 
 Speaking of leaving behind the vanilla experience, MGO includes an alternate start mod that gives you a number of choices for where and how you begin the game.
-
-[^1]: When we refer to Skyrim as Bethesda originally shipped it, free of mods, we call it "vanilla".[^2] (Never mind that vanilla is one of the best and most complex flavors known to humanity.)
-
-[^2]: In American English, it is standard to place commas and periods _inside_ closing quotation marks, regardless of whether the comma or period is part of the quotation. This is a silly rule, and I reject it. But in the unlikely event that my freshman English teacher[^3] sees this, I want to assure him that I know the rule. The rule is just _bad_.
-
-[^3]: Yes, he's still alive. I'm not _that_ old! (Just don't ask about my 11th and 12th grade English teachers.)
+{{< /chapter-heading >}}
