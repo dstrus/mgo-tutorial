@@ -20,7 +20,7 @@ When MO2 has finished loading, you can launch the game with the {{< btn-inline p
 
 
 {{< aside type="btw" title="Skip to the game" >}}
-You can use the <span class="btn-inline"><i class="fa-solid fa-share"></i> Shortcut</span> dropdown to add a shortcut directly to launching the game, eliminating the need to run MO2 first.
+You can use the <span class="btn-inline"><i class="fa-solid fa-share"></i> Shortcut</span> dropdown to add a shortcut directly to the game, eliminating the need to run MO2 first.
 {{< /aside >}}
 
 Before jumping into Tamriel, you might want to take a quick look around MO2.
@@ -49,7 +49,7 @@ If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**,
 
 ---
 ## Startup Notes
-<div class="separator sub blue1">
+<div class="separator blue1">
   <i class="fa fa-folder"></i> ▸▸ STEP 1 - Startup Notes - PLEASE READ BEFORE REPORTING ISSUES
 </div>
 
@@ -58,6 +58,129 @@ If you open the **START HERE** folder, you'll see subfolders labeled **STEP 1**,
 * <span class="highlight">DO NOT Click Unlock</span> - When you run the game, MO2's interface will lock to keep you from accidentally messing with it while the game is running. The dialog box that opens will include an {{< btn-inline >}}Unlock{{< /btn-inline >}} button. This entry in the list is to remind you _not_ to click that button.
 * <span class="highlight">DO NOT Use Auto Save or Quick Save</span> - Auto Save and Quick Save are handy features in Skyrim (flat and VR alike), but the save files they produce are not as complete as those created by full saves, and some players have reported issues loading them. A bad save can result in hours of progress lost. For safety, use full saves. As we'll discuss later, you can add a save shortcut to Spell Wheel VR to make this more convenient.
 * <span class="highlight">DO NOT Use Loot Sort on Plugins</span> - LOOT is a tool that automatically sorts plugins (the files listed on the right side of MO2) to be loaded in an order that's better optimized than if you just added them without much thought. **The plugins in Mad God's Overhaul have already been carefully sorted by hand.** You shouldn't mess with that order.
+
+---
+## Target Frame Rate (FPS)
+<div class="separator blue2">
+  <i class="fa fa-folder"></i> ▸▸ STEP 2 - Select Target FPS
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> 144
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> 120
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> 90
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> 80
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> 72
+</div>
+
+**STEP 2** asks you to choose your headset's target frame rate (also called the refresh rate). Although this step is optional, for optimal performance you should check the entry that matches your headset's frame rate.
+
+For SteamVR-based headsets, you can check (or set) the target frame rate in the SteamVR desktop app. If you're using Virtual Desktop, you can set the frame rate in the **STREAMING** tab of the VD overlay.
+
+{{< aside type="btw" title="Why?" >}}
+Skyrim uses the Havok Physics engine, and there are a few <abbr title="a plain-text file format for storing settings, preferences, other parameters">INI</abbr> settings for controlling how it handles frame updates and physics calculations. Ideally these values are set to specific values based on your frame rate, and that's what these mod list entries do.
+{{< /aside >}}
+
+---
+## Performance Options
+<div class="separator blue3">
+  <i class="fa fa-folder"></i> ▸▸ STEP 3 - Select Performance Options
+</div>
+<div class="separator sub blue4">
+  <i class="fa fa-folder"></i> ▸▸▸ Community Shaders
+</div>
+<div class="separator sub blue5">
+  <i class="fa fa-folder"></i> ▸▸▸ Grass Density & LODs (Optional)
+</div>
+
+**STEP 3** includes a few performance-related presets.
+
+There are _Performance_ (the default) and _Quality_ presets for **Community Shaders**. Switching to the _Quality_ presets will have a fairly significant impact to your outdoor frame rate. Whether that's worth it is up to you, but you'll need a pretty serious PC to maintain a comfortable framerate if you set both to _Quality_.
+
+ **Grass Density** and **LOD Distance** have optional _Quality_ presets as well, and they also impact outdoor frame rate. (Leaving them unchecked will default to performance settings.)
+
+ {{< aside type="btw" title="LOD?" >}}
+ LOD stands for _Level of Detail_ and which set of pre-generated LODs you use determines how detailed distant geometry (terrain, trees, structures, etc.) will appear. Even the _performance_ presets look quite good, so if you're looking to save some frames, this is a good place to do it.
+ {{< /aside >}}
+
+---
+## Preferred Runtime
+<div class="separator blue3">
+  <i class="fa fa-folder"></i> ▸▸ STEP 4 - Select Preferred Runtime
+</div>
+
+_VR runtime_ refers to the software layer that sits between a VR application (like Skyrim VR) and your VR headset. **STEP 4** asks you to choose between OpenComposite and SteamVR. **STEP 5** and **STEP 6** depend on what you choose here.
+
+You should probably choose OpenComposite unless you know that you have a _really good reason_ to choose SteamVR.
+
+In particular, MGO includes OpenComposite Unleashed, which works fine with SteamVR-native headsets and includes a number of features beyond just translating VR-related API calls. It's good. Use it!
+
+<div class="separator purple1">
+  <i class="fa fa-folder"></i> ▸▸▸ (A) Open Composite
+</div>
+<div class="separator sub purple2">
+  <i class="fa fa-folder"></i> ▸▸▸▸ Step 5 - Enable Mods Below
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> Right Click - Select Open In Explorer - Launch OCU Configurator
+</div>
+
+The single mod (with the really long label) in this folder enabled OpenComposite Unleashed. There are options for its built-in keyboard, changing your key bindings, upscaling and more, accessible in the included configurator app. As the mod label points out, you can find this app in the mod folder.
+
+<div class="separator purple1">
+  <i class="fa fa-folder"></i> ▸▸▸ (B) Steam VR
+</div>
+<div class="separator sub purple2">
+  <i class="fa fa-folder"></i> ▸▸▸▸ Step 5 - Select Controller Bindings
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> Controller Bindings - Kvite
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VRIK Controller Bindings - Standard
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VRIK Controller Bindings - Easy Shout
+</div>
+
+controller bindings
+
+<div class="separator purple1">
+  <i class="fa fa-folder sub"></i> ▸▸▸▸ Step 6 - Select Performance Options
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VR Performance Kit - FSR - (Choose One)
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VR Performance Kit - CAS - (Or The Other)
+</div>
+<div class="mod sub">
+  <input type="checkbox" class="readonly"> VR FPS Stabilizer - (Compatible With VR Perf Kit)
+</div>
+
+MGO includes presets for {{< github "fholger/vrperfkit" >}} VR Performance Toolkit{{< /github >}} and {{< nexus 31392 >}} VR FPS Stabilizer{{< /nexus >}}. These can help you reach a nice balance between performance and image quality.
+
+{{< aside type="alert" title="Open Composite compatibility" >}}
+VR Performance Toolkit is not compatible with OpenComposite, but OC Unleashed and Community Shaders both expose similar upscaling options.
+{{< /aside >}}
+
+<div class="separator subsub blue6">
+  <i class="fa fa-folder"></i> ▸▸▸ VR FPS Stabilizer
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly" checked> VR FPS Stabilizer - Open Composite
+</div>
+<div class="mod subsub">
+  <input type="checkbox" class="readonly"> VR FPS Stabilizer - Steam VR
+</div>
+
 
 ---
 ## Open Composite (Unleashed)
@@ -97,48 +220,6 @@ If you have a headset that doesn't use Steam base stations (aka lighthouse track
 {{< aside type="alert" title="OC Unleashed compatibility" >}}
 These controller binding options will not work with OC Unleashed enabled because OCU includes controller bindings of its own. You can use the OCU desktop app to select any of these bindings from there, and that will work.
 {{< /aside >}}
-
----
-## Performance Options
-<div class="separator sub blue4">
-  <i class="fa fa-folder"></i> ▸▸ STEP 4 - Select Performance Options
-</div>
-<div class="separator subsub blue5">
-  <i class="fa fa-folder"></i> ▸▸▸ Grass Density
-</div>
-<div class="separator subsub blue6">
-  <i class="fa fa-folder"></i> ▸▸▸ Community Shaders
-</div>
-
-**STEP 4** includes a variety of performance-related presets.
-
-There are _Performance_ and _Quality_ presets for **Grass Density** and **Community Shaders**. Switching to the _Quality_ presets will have a fairly significant impact to your outdoor framerate. Whether that's worth it is up to you, but you'll need a pretty serious PC to maintain a comfortable framerate if you set both to _Quality_.
-
-<div class="separator subsub blue5">
-  <i class="fa fa-folder"></i> ▸▸▸ VR Performance Kit - (Not Compatible with O.C.)
-</div>
-<div class="mod subsub">
-  <input type="checkbox" class="readonly"> VR Performance Kit - CAS Sharpening
-</div>
-<div class="mod subsub">
-  <input type="checkbox" class="readonly"> VR Performance Kit - FSR - Use with DLAA
-</div>
-
-MGO includes presets for {{< github "fholger/vrperfkit" >}} VR Performance Toolkit{{< /github >}} and {{< nexus 31392 >}} VR FPS Stabilizer{{< /nexus >}}. These can help you reach a nice balance between performance and image quality.
-
-{{< aside type="alert" title="Open Composite compatibility" >}}
-VR Performance Toolkit is not compatible with _either_ version of Open Composite, but OC Unleashed includes similar performance options through its desktop configuration app.
-{{< /aside >}}
-
-<div class="separator subsub blue6">
-  <i class="fa fa-folder"></i> ▸▸▸ VR FPS Stabilizer
-</div>
-<div class="mod subsub">
-  <input type="checkbox" class="readonly" checked> VR FPS Stabilizer - Open Composite
-</div>
-<div class="mod subsub">
-  <input type="checkbox" class="readonly"> VR FPS Stabilizer - Steam VR
-</div>
 
 ---
 ## Optional Mods
